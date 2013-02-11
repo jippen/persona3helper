@@ -1,42 +1,42 @@
 <html>
   <head>
-    <title>Persona 3 Guide for {{ today }}</title>
-	<link rel="stylesheet" type="text/css" href="/static/reset.css">
-	<link rel="stylesheet" type="text/css" href="/static/main.css">
-	<script type="text/javascript" src="/static/padilicious.js">
-	<script type="text/javascript">
-		function processingRoutine() {
-			var swipedElement = document.getElementById(triggerElementID);
-			if ( swipeDirection == 'right' ) { window.location = '/{% if prev %}{{ prev }}{% endif %}'; }
-			{% if next -%}
-			if ( swipeDirection == 'left' ) { window.location = '/{{ next }}'; }
-			{% endif -%}
-		}
-	</script>
+    <title>Persona 3 Guide</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
   </head>
   <body>
-  <div id="swipeBox" ontouchstart="touchStart(event,'swipeBox');"  ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);">
-    <header>
-	  <table class="nav">
-        <tr>
-		  <td class="left">
-		    <a href="/{% if prev %}{{prev}}{% endif %}">&lt;&lt;</a>
-		  </td>
-		  <td class="center">
-		    <h1>{{ today }}</h1>
-		  </td>
-		  <td class="right">
-		    {% if next %}<a href="/{{next}}">{% endif %}&gt;&gt;{% if next %}</a>{% endif %}
-          </td>
-	    </tr>
-	  </table>
-    </header>
-  
-  <form action="">
-  {% for thing in todo -%}
-	<input type="checkbox" name="chk" value="{{ thing }}">{{ thing }}</input>
-  {% endfor -%}
-  </form>
- </div>
+  <div data-role="page">
+
+    <div data-role="header" data-title="Start">
+	  {% if prev -%}
+	  <a href="/{{prev}}" data-icon="arrow-l" data-iconpos="left" data-prefetch>{{prev}}</a> 
+	  {% else -%}
+	  <a href="/" data-icon="arrow-l" data-iconpos="left" data-prefetch>Start</a> 
+	  {% endif -%}
+      <h1>{{today}}</h1>
+	  {% if next -%}
+	  <a href="/{{next}}" data-icon="arrow-r" data-iconpos="right" data-prefetch>{{next}}</a>
+	  {% else -%}
+	  <a href="/" data-icon="arrow-l" data-iconpos="right" style="display:none">Start</a> 
+	  {% endif -%}
+    </div>
+
+    <div data-role="content">	
+	
+	<div data-role="fieldcontain" >
+    <fieldset data-role="controlgroup" class="ui-hide-label">
+	   <legend>Things to do today</legend>
+	   {% for thing in todo -%}
+	   <input type="checkbox" name="checkbox-{{thing}}" id="checkbox-{{thing}}" class="custom" />
+	   <label for="checkbox-{{thing}}">{{thing}}</label>
+	   {% endfor -%}
+    </fieldset>
+	</div><!-- /data-role="fieldcontain" -->
+        
+    </div><!-- /content -->
+
+  </div><!-- /page -->
   </body>
 </html>

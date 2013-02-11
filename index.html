@@ -1,33 +1,25 @@
 <html>
   <head>
-    <title>Persona 3 Guide for {{ today }}</title>
-	<link rel="stylesheet" type="text/css" href="/static/reset.css">
-	<link rel="stylesheet" type="text/css" href="/static/main.css">
-	<script type="text/javascript" src="/static/padilicious.js">
-	<script type="text/javascript">
-		function processingRoutine() {
-			var swipedElement = document.getElementById(triggerElementID);
-			if ( swipeDirection == 'left' ) {
-				window.location = '/04/07';
-			}
-		}
-	</script>
+    <title>Persona 3 Guide</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
   </head>
   <body>
-  <div id="swipeBox" ontouchstart="touchStart(event,'swipeBox');"  ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);">
-    <header>
-	  <table class="nav">
-        <tr>
-		  <td class="left">&lt;&lt;</td>
-		  <td class="center"><h1>Start</h1></td>
-		  <td class="right"><a href="/04/07">&gt;&gt;</a></td>
-	    </tr>
-	  </table>
-    </header>
-  <br>
+  <div data-role="page">
 
-  <p>This is a helper application, ment to be run on your phone, to help you play Persona 3 and get all the social links.</p>
-  <p>To use the app, click the '&gt;&gt;' in the upper right of the window, or swipe the page.</p>
- </div>
+    <div data-role="header" data-title="Start">
+	  <a data-icon="arrow-l" data-iconpos="left" style="display:none">Prev</a> 
+      <h1>Start</h1>
+	  <a href="/04/07" data-icon="arrow-r" data-iconpos="right" data-prefetch>04/07</a>
+    </div>
+
+    <div data-role="content">	
+      <p>This is a helper application, ment to be run on your phone, to help you play Persona 3 and get all the social links.</p>
+      <p>To use the app, click the '&gt;&gt;' in the upper right of the window, or swipe the page.</p>	
+    </div><!-- /content -->
+
+  </div><!-- /page -->
   </body>
 </html>
