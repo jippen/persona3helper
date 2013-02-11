@@ -9,9 +9,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
   
-- url: /templates/date\.html
-  static_files: templates/date.html
-  upload: /templates/date\.html
   
 - url: /
   static_files: index.html
@@ -19,6 +16,10 @@ handlers:
   
 - url: /.*/.*
   script: main.app
+  
+- url: /.*
+  static_files: index.html
+  upload: index.html
 
 libraries:
 - name: webapp2
