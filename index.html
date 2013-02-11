@@ -7,10 +7,9 @@
 	<script type="text/javascript">
 		function processingRoutine() {
 			var swipedElement = document.getElementById(triggerElementID);
-			if ( swipeDirection == 'right' ) { window.location = '/{% if prev %}{{ prev }}{% endif %}'; }
-			{% if next -%}
-			if ( swipeDirection == 'left' ) { window.location = '/{{ next }}'; }
-			{% endif -%}
+			if ( swipeDirection == 'left' ) {
+				window.location = '/04/07';
+			}
 		}
 	</script>
   </head>
@@ -19,24 +18,16 @@
     <header>
 	  <table class="nav">
         <tr>
-		  <td class="left">
-		    <a href="/{% if prev %}{{prev}}{% endif %}">&lt;&lt;</a>
-		  </td>
-		  <td class="center">
-		    <h1>{{ today }}</h1>
-		  </td>
-		  <td class="right">
-		    {% if next %}<a href="/{{next}}">{% endif %}&gt;&gt;{% if next %}</a>{% endif %}
-          </td>
+		  <td class="left">&lt;&lt;</td>
+		  <td class="center"><h1>Start</h1></td>
+		  <td class="right"><a href="/04/07">&gt;&gt;</a></td>
 	    </tr>
 	  </table>
     </header>
-  
-  <form action="">
-  {% for thing in todo -%}
-	<input type="checkbox" name="chk" value="{{ thing }}">{{ thing }}</input>
-  {% endfor -%}
-  </form>
+  <br>
+
+  <p>This is a helper application, ment to be run on your phone, to help you play Persona 3 and get all the social links.</p>
+  <p>To use the app, click the '&gt;&gt;' in the upper right of the window, or swipe the page.</p>
  </div>
   </body>
 </html>

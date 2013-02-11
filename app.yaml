@@ -17,7 +17,8 @@ handlers:
   static_dir: static
 
 - url: /
-  script: main.app
+  static_files: index.html
+  upload: index.html
   
 - url: /.*/.*
   script: main.app
