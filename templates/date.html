@@ -15,7 +15,7 @@
     {% else -%}
     <a href="/" data-icon="arrow-l" data-iconpos="left" data-prefetch>Start</a> 
     {% endif -%}
-      <h1>{{today}}</h1>
+      <h1>{{today}} ({{ dow }})</h1>
     {% if next -%}
     <a href="/{{next}}" data-icon="arrow-r" data-iconpos="right" data-prefetch>{{next}}</a>
     {% else -%}
@@ -24,35 +24,77 @@
     </div>
 
     <div data-role="content">
-      {% if quiz -%}  
-      <ul data-role="listview">
-        <li data-role="list-divider">Quiz Answer</li>
+      <ul data-role="listview" data-divider-theme="e" data-theme="c">
+        <li data-role="list-divider">Morning</li>
+      {% if quiz -%} 
+        <li data-theme="a">Quiz Answer</li>
         <li>{{ quiz }}</li>
-      </ul>
-      {% endif -%}
-      {% if exam -%}  
-      <ul data-role="listview">
-        <li data-role="list-divider">Exam Answers</li>
+      {% elif exam -%}
+        <li data-theme="a">Exam Answers</li>
         {% for answer in exam -%}
         <li>{{ answer }}</li>
         {% endfor -%}
-      </ul>
+      {% else -%}
+        <li>No control</li>
       {% endif -%}
-      {% if where -%}  
-      <ul data-role="listview">
-        <li data-role="list-divider">Where to go</li>
-        <li>{{ where }}</li>
-      </ul>
+    </div>
+    
+    <div data-role="content"> 
+      <ul data-role="listview" data-divider-theme="e" data-theme="c">
+        <li data-role="list-divider">After School</li>
+      {% if arcana -%}
+        <li data-theme="a">{{ arcana }}</li>
       {% endif -%}
+      {% if after_school -%}
+        <li data-theme="a">Where to go</li>
+        <li>{{ after_school }}</li>
+      {% else -%}
+        <li>No control</li>
+      {% endif -%}
+      
       {% if answers -%}  
-      <ul data-role="listview">
-        <li data-role="list-divider">Question Answers</li>
+        <li data-theme="a">What to do/say</li>
         {% for answer in answers -%}
         <li>{{ answer }}</li>
         {% endfor -%}
-      </ul>
       {% endif -%}
-    </div><!-- /content -->
+      </ul>
+    </div>
+    
+    <div data-role="content"> 
+      <ul data-role="listview" data-divider-theme="e" data-theme="c">
+        <li data-role="list-divider">Evening</li>
+        {% if quest -%}
+        <li data-theme="a">Quest</li>
+        <li>{{quest}}</li>
+        {% endif -%}
+        {% if courage or charm or academic-%}
+        <li data-theme="a">Improve attributes</li>
+        {% endif -%}
+        
+        {% if courage -%}
+        <li>If courage not maxed: {{courage}}</li>
+        {% endif -%}
+        {% if charm -%}
+        <li>If charm not maxed: {{charm}}</li>
+        {% endif -%}        
+        {% if academic -%}
+        <li>If academic not maxed: {{academic}}</li>
+        {% endif -%}
+        {% if tartarus -%}
+        <li>{{tartarus}}</li>
+        {% endif -%}
+      </ul>
+    </div>    
+
+    <div data-role="content"> 
+      <ul data-role="listview" data-divider-theme="e" data-theme="c">
+        <li data-role="list-divider">Late Night</li>
+        {% if late_night -%}
+        <li>{{late_night}}</li>
+        {% endif -%}
+      </ul>
+    </div>
 
   </div><!-- /page -->
   </body>

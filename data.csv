@@ -1,315 +1,316 @@
-0,date,prevdate,nextdate,quiz_answer,exam_answer_1,exam_answer_2,exam_answer_3,exam_answer_4,exam_answer_5,where,suggested_answer_1,suggested_answer_2,suggested_answer_3,suggested_answer_4
-1,04/07,Start,04/08,,,,,,,,,,,
-2,04/08,04/07,04/09,Utsubo Kubota,,,,,,,,,,
-3,04/09,04/08,04/10,,,,,,,,,,,
-4,04/10,04/09,04/11,,,,,,,,,,,
-5,04/11,04/10,04/12,,,,,,,,,,,
-6,04/12,04/11,04/13,,,,,,,,,,,
-7,04/13,04/12,04/14,,,,,,,,,,,
-8,04/14,04/13,04/15,,,,,,,,,,,
-9,04/15,04/14,04/16,,,,,,,,,,,
-10,04/16,04/15,04/17,,,,,,,,,,,
-11,04/17,04/16,04/18,,,,,,,,,,,
-12,04/18,04/17,04/19,Mud huts,,,,,,,,,,
-13,04/19,04/18,04/20,,,,,,,,,,,
-14,04/20,04/19,04/21,,,,,,,,,,,
-15,04/21,04/20,04/22,,,,,,,,,,,
-16,04/22,04/21,04/23,,,,,,,,,,,
-17,04/23,04/22,04/24,,,,,,,,,,,
-18,04/24,04/23,04/25,,,,,,,,,,,
-19,04/25,04/24,04/26,,,,,,,,,,,
-20,04/26,04/25,04/27,,,,,,,,,,,
-21,04/27,04/26,04/28,6000 years ago,,,,,,,,,,
-22,04/28,04/27,04/29,,,,,,,,,,,
-23,04/29,04/28,04/30,,,,,,,,,,,
-24,04/30,04/29,05/01,,,,,,,,,,,
-25,05/01,04/30,05/02,,,,,,,,,,,
-26,05/02,05/01,05/03,,,,,,,,,,,
-27,05/03,05/02,05/04,,,,,,,,,,,
-28,05/04,05/03,05/05,,,,,,,,,,,
-29,05/05,05/04,05/06,,,,,,,,,,,
-30,05/06,05/05,05/07,Soft Water,,,,,,,,,,
-31,05/07,05/06,05/08,,,,,,,,,,,
-32,05/08,05/07,05/09,,,,,,,,,,,
-33,05/09,05/08,05/10,,,,,,,,,,,
-34,05/10,05/09,05/11,,,,,,,,,,,
-35,05/11,05/10,05/12,,,,,,,,,,,
-36,05/12,05/11,05/13,,,,,,,,,,,
-37,05/13,05/12,05/14,1700 km/hr,,,,,,,,,,
-38,05/14,05/13,05/15,,,,,,,,,,,
-39,05/15,05/14,05/16,Bread,,,,,,,,,,
-40,05/16,05/15,05/17,,,,,,,,,,,
-41,05/17,05/16,05/18,,,,,,,,,,,
-42,05/18,05/17,05/19,,Bread,Faster than Sound,Hard Water,Nara,,,,,,
-43,05/19,05/18,05/20,,Bread,Faster than Sound,Hard Water,Nara,,,,,,
-44,05/20,05/19,05/21,,Bread,Faster than Sound,Hard Water,Nara,,,,,,
-45,05/21,05/20,05/22,,Bread,Faster than Sound,Hard Water,Nara,,,,,,
-46,05/22,05/21,05/23,,Bread,Faster than Sound,Hard Water,Nara,,,,,,
-47,05/23,05/22,05/24,,,,,,,,,,,
-48,05/24,05/23,05/25,,,,,,,,,,,
-49,05/25,05/24,05/26,,,,,,,,,,,
-50,05/26,05/25,05/27,,,,,,,,,,,
-51,05/27,05/26,05/28,,,,,,,,,,,
-52,05/28,05/27,05/29,,,,,,,,,,,
-53,05/29,05/28,05/30,,,,,,,,,,,
-54,05/30,05/29,05/31,,,,,,,,,,,
-55,05/31,05/30,06/01,,,,,,,,,,,
-56,06/01,05/31,06/02,,,,,,,,,,,
-57,06/02,06/01,06/03,,,,,,,,,,,
-58,06/03,06/02,06/04,,,,,,,,,,,
-59,06/04,06/03,06/05,,,,,,,,,,,
-60,06/05,06/04,06/06,,,,,,,,,,,
-61,06/06,06/05,06/07,,,,,,,,,,,
-62,06/07,06/06,06/08,,,,,,,,,,,
-63,06/08,06/07,06/09,,,,,,,,,,,
-64,06/09,06/08,06/10,,,,,,,,,,,
-65,06/10,06/09,06/11,,,,,,,,,,,
-66,06/11,06/10,06/12,,,,,,,,,,,
-67,06/12,06/11,06/13,,,,,,,,,,,
-68,06/13,06/12,06/14,,,,,,,,,,,
-69,06/14,06/13,06/15,,,,,,,,,,,
-70,06/15,06/14,06/16,And...,,,,,,,,,,
-71,06/16,06/15,06/17,,,,,,,,,,,
-72,06/17,06/16,06/18,Shamanism,,,,,,,,,,
-73,06/18,06/17,06/19,,,,,,,,,,,
-74,06/19,06/18,06/20,,,,,,,,,,,
-75,06/20,06/19,06/21,,,,,,,,,,,
-76,06/21,06/20,06/22,,,,,,,,,,,
-77,06/22,06/21,06/23,Jellyfish,,,,,,,,,,
-78,06/23,06/22,06/24,,,,,,,,,,,
-79,06/24,06/23,06/25,,,,,,,,,,,
-80,06/25,06/24,06/26,Dowsing,,,,,,,,,,
-81,06/26,06/25,06/27,,,,,,,,,,,
-82,06/27,06/26,06/28,,,,,,,,,,,
-83,06/28,06/27,06/29,,,,,,,,,,,
-84,06/29,06/28,06/30,It can go either way,,,,,,,,,,
-85,06/30,06/29,07/01,,,,,,,,,,,
-86,07/01,06/30,07/02,,,,,,,,,,,
-87,07/02,07/01,07/03,,,,,,,,,,,
-88,07/03,07/02,07/04,The Global Heritage Pavilion,,,,,,,,,,
-89,07/04,07/03,07/05,,,,,,,,,,,
-90,07/05,07/04,07/06,,,,,,,,,,,
-91,07/06,07/05,07/07,,,,,,,,,,,
-92,07/07,07/06,07/08,,,,,,,,,,,
-93,07/08,07/07,07/09,"I failed, It's over now.",,,,,,,,,,
-94,07/09,07/08,07/10,Kondan Einen Shizaihou,,,,,,,,,,
-95,07/10,07/09,07/11,Kabbalah,,,,,,,,,,
-96,07/11,07/10,07/12,Imperial Prince,,,,,,,,,,
-97,07/12,07/11,07/13,,,,,,,,,,,
-98,07/13,07/12,07/14,,,,,,,,,,,
-99,07/14,07/13,07/15,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,
-100,07/15,07/14,07/16,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,
-101,07/16,07/15,07/17,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,
-102,07/17,07/16,07/18,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,
-103,07/18,07/17,07/19,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,
-104,07/19,07/18,07/20,,,,,,,,,,,
-105,07/20,07/19,07/21,,,,,,,,,,,
-106,07/21,07/20,07/22,,,,,,,,,,,
-107,07/22,07/21,07/23,,,,,,,,,,,
-108,07/23,07/22,07/24,,,,,,,,,,,
-109,07/24,07/23,07/25,,,,,,,,,,,
-110,07/25,07/24,07/26,,,,,,,,,,,
-111,07/26,07/25,07/27,,,,,,,,,,,
-112,07/27,07/26,07/28,,,,,,,,,,,
-113,07/28,07/27,07/29,,,,,,,,,,,
-114,07/29,07/28,07/30,,,,,,,,,,,
-115,07/30,07/29,07/31,,,,,,,,,,,
-116,07/31,07/30,08/01,,,,,,,,,,,
-117,08/01,07/31,08/02,,,,,,,,,,,
-118,08/02,08/01,08/03,,,,,,,,,,,
-119,08/03,08/02,08/04,,,,,,,,,,,
-120,08/04,08/03,08/05,,,,,,,,,,,
-121,08/05,08/04,08/06,,,,,,,,,,,
-122,08/06,08/05,08/07,,,,,,,,,,,
-123,08/07,08/06,08/08,,,,,,,,,,,
-124,08/08,08/07,08/09,,,,,,,,,,,
-125,08/09,08/08,08/10,,,,,,,,,,,
-126,08/10,08/09,08/11,,,,,,,,,,,
-127,08/11,08/10,08/12,,,,,,,,,,,
-128,08/12,08/11,08/13,,,,,,,,,,,
-129,08/13,08/12,08/14,,,,,,,,,,,
-130,08/14,08/13,08/15,,,,,,,,,,,
-131,08/15,08/14,08/16,,,,,,,,,,,
-132,08/16,08/15,08/17,,,,,,,,,,,
-133,08/17,08/16,08/18,,,,,,,,,,,
-134,08/18,08/17,08/19,,,,,,,,,,,
-135,08/19,08/18,08/20,,,,,,,,,,,
-136,08/20,08/19,08/21,,,,,,,,,,,
-137,08/21,08/20,08/22,,,,,,,,,,,
-138,08/22,08/21,08/23,,,,,,,,,,,
-139,08/23,08/22,08/24,,,,,,,,,,,
-140,08/24,08/23,08/25,,,,,,,,,,,
-141,08/25,08/24,08/26,,,,,,,,,,,
-142,08/26,08/25,08/27,,,,,,,,,,,
-143,08/27,08/26,08/28,,,,,,,,,,,
-144,08/28,08/27,08/29,,,,,,,,,,,
-145,08/29,08/28,08/30,,,,,,,,,,,
-146,08/30,08/29,08/31,,,,,,,,,,,
-147,08/31,08/30,09/01,,,,,,,,,,,
-148,09/01,08/31,09/02,Superconductivity,,,,,,,,,,
-149,09/02,09/01,09/03,,,,,,,,,,,
-150,09/03,09/02,09/04,,,,,,,,,,,
-151,09/04,09/03,09/05,,,,,,,,,,,
-152,09/05,09/04,09/06,,,,,,,,,,,
-153,09/06,09/05,09/07,,,,,,,,,,,
-154,09/07,09/06,09/08,,,,,,,,,,,
-155,09/08,09/07,09/09,,,,,,,,,,,
-156,09/09,09/08,09/10,,,,,,,,,,,
-157,09/10,09/09,09/11,Gochisou-sama,,,,,,,,,,
-158,09/11,09/10,09/12,The Hermetica,,,,,,,,,,
-159,09/12,09/11,09/13,,,,,,,,,,,
-160,09/13,09/12,09/14,,,,,,,,,,,
-161,09/14,09/13,09/15,Can't let others produce,,,,,,,,,,
-162,09/15,09/14,09/16,,,,,,,,,,,
-163,09/16,09/15,09/17,,,,,,,,,,,
-164,09/17,09/16,09/18,,,,,,,,,,,
-165,09/18,09/17,09/19,,,,,,,,,,,
-166,09/19,09/18,09/20,,,,,,,,,,,
-167,09/20,09/19,09/21,,,,,,,,,,,
-168,09/21,09/20,09/22,,,,,,,,,,,
-169,09/22,09/21,09/23,,,,,,,,,,,
-170,09/23,09/22,09/24,,,,,,,,,,,
-171,09/24,09/23,09/25,,,,,,,,,,,
-172,09/25,09/24,09/26,,,,,,,,,,,
-173,09/26,09/25,09/27,The Tetractys,,,,,,,,,,
-174,09/27,09/26,09/28,,,,,,,,,,,
-175,09/28,09/27,09/29,,,,,,,,,,,
-176,09/29,09/28,09/30,,,,,,,,,,,
-177,09/30,09/29,10/01,,,,,,,,,,,
-178,10/01,09/30,10/02,,,,,,,,,,,
-179,10/02,10/01,10/03,,,,,,,,,,,
-180,10/03,10/02,10/04,,,,,,,,,,,
-181,10/04,10/03,10/05,,,,,,,,,,,
-182,10/05,10/04,10/06,,,,,,,,,,,
-183,10/06,10/05,10/07,,,,,,,,,,,
-184,10/07,10/06,10/08,To excite the audience,,,,,,,,,,
-185,10/08,10/07,10/09,,,,,,,,,,,
-186,10/09,10/08,10/10,,,,,,,,,,,
-187,10/10,10/09,10/11,,,,,,,,,,,
-188,10/11,10/10,10/12,,,,,,,,,,,
-189,10/12,10/11,10/13,,,,,,,,,,,
-190,10/13,10/12,10/14,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,
-191,10/14,10/13,10/15,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,
-192,10/15,10/14,10/16,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,
-193,10/16,10/15,10/17,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,
-194,10/17,10/16,10/18,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,
-195,10/18,10/17,10/19,,,,,,,,,,,
-196,10/19,10/18,10/20,Fourteen,,,,,,,,,,
-197,10/20,10/19,10/21,,,,,,,,,,,
-198,10/21,10/20,10/22,,,,,,,,,,,
-199,10/22,10/21,10/23,By fermenting them,,,,,,,,,,
-200,10/23,10/22,10/24,Madam Blavatsky,,,,,,,,,,
-201,10/24,10/23,10/25,,,,,,,,,,,
-202,10/25,10/24,10/26,,,,,,,,,,,
-203,10/26,10/25,10/27,Wristwatch,,,,,,,,,,
-204,10/27,10/26,10/28,,,,,,,,,,,
-205,10/28,10/27,10/29,,,,,,,,,,,
-206,10/29,10/28,10/30,Lactase,,,,,,,,,,
-207,10/30,10/29,10/31,,,,,,,,,,,
-208,10/31,10/30,11/01,,,,,,,,,,,
-209,11/01,10/31,11/02,,,,,,,,,,,
-210,11/02,11/01,11/03,,,,,,,,,,,
-211,11/03,11/02,11/04,,,,,,,,,,,
-212,11/04,11/03,11/05,,,,,,,,,,,
-213,11/05,11/04,11/06,,,,,,,,,,,
-214,11/06,11/05,11/07,,,,,,,,,,,
-215,11/07,11/06,11/08,,,,,,,,,,,
-216,11/08,11/07,11/09,,,,,,,,,,,
-217,11/09,11/08,11/10,,,,,,,,,,,
-218,11/10,11/09,11/11,,,,,,,,,,,
-219,11/11,11/10,11/12,,,,,,,,,,,
-220,11/12,11/11,11/13,The Upanishads,,,,,,,,,,
-221,11/13,11/12,11/14,,,,,,,,,,,
-222,11/14,11/13,11/15,,,,,,,,,,,
-223,11/15,11/14,11/16,,,,,,,,,,,
-224,11/16,11/15,11/17,,,,,,,,,,,
-225,11/17,11/16,11/18,,,,,,,,,,,
-226,11/18,11/17,11/19,,,,,,,,,,,
-227,11/19,11/18,11/20,,,,,,,,,,,
-228,11/20,11/19,11/21,,,,,,,,,,,
-229,11/21,11/20,11/22,,,,,,,,,,,
-230,11/22,11/21,11/23,,,,,,,,,,,
-231,11/23,11/22,11/24,,,,,,,,,,,
-232,11/24,11/23,11/25,,,,,,,,,,,
-233,11/25,11/24,11/26,,,,,,,,,,,
-234,11/26,11/25,11/27,,,,,,,,,,,
-235,11/27,11/26,11/28,,,,,,,,,,,
-236,11/28,11/27,11/29,,,,,,,,,,,
-237,11/29,11/28,11/30,,,,,,,,,,,
-238,11/30,11/29,12/01,They did both,,,,,,,,,,
-239,12/01,11/30,12/02,,,,,,,,,,,
-240,12/02,12/01,12/03,,,,,,,,,,,
-241,12/03,12/02,12/04,,,,,,,,,,,
-242,12/04,12/03,12/05,,,,,,,,,,,
-243,12/05,12/04,12/06,,,,,,,,,,,
-244,12/06,12/05,12/07,,,,,,,,,,,
-245,12/07,12/06,12/08,Ozone,,,,,,,,,,
-246,12/08,12/07,12/09,,,,,,,,,,,
-247,12/09,12/08,12/10,,,,,,,,,,,
-248,12/10,12/09,12/11,,,,,,,,,,,
-249,12/11,12/10,12/12,Cacti,,,,,,,,,,
-250,12/12,12/11,12/13,,,,,,,,,,,
-251,12/13,12/12,12/14,,,,,,,,,,,
-252,12/14,12/13,12/15,,1185,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,
-253,12/15,12/14,12/16,,1186,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,
-254,12/16,12/15,12/17,,1187,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,
-255,12/17,12/16,12/18,,1188,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,
-256,12/18,12/17,12/19,,1189,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,
-257,12/19,12/18,12/20,,,,,,,,,,,
-258,12/20,12/19,12/21,,,,,,,,,,,
-259,12/21,12/20,12/22,Kido,,,,,,,,,,
-260,12/22,12/21,12/23,Euphoria,,,,,,,,,,
-261,12/23,12/22,12/24,,,,,,,,,,,
-262,12/24,12/23,12/25,,,,,,,,,,,
-263,12/25,12/24,12/26,,,,,,,,,,,
-264,12/26,12/25,12/27,,,,,,,,,,,
-265,12/27,12/26,12/28,,,,,,,,,,,
-266,12/28,12/27,12/29,,,,,,,,,,,
-267,12/29,12/28,12/30,,,,,,,,,,,
-268,12/30,12/29,12/31,,,,,,,,,,,
-269,12/31,12/30,01/01,,,,,,,,,,,
-270,01/01,12/31,01/02,,,,,,,,,,,
-271,01/02,01/01,01/03,,,,,,,,,,,
-272,01/03,01/02,01/04,,,,,,,,,,,
-273,01/04,01/03,01/05,,,,,,,,,,,
-274,01/05,01/04,01/06,,,,,,,,,,,
-275,01/06,01/05,01/07,,,,,,,,,,,
-276,01/07,01/06,01/08,,,,,,,,,,,
-277,01/08,01/07,01/09,It's wrong,,,,,,,,,,
-278,01/09,01/08,01/10,,,,,,,,,,,
-279,01/10,01/09,01/11,,,,,,,,,,,
-280,01/11,01/10,01/12,,,,,,,,,,,
-281,01/12,01/11,01/13,,,,,,,,,,,
-282,01/13,01/12,01/14,,,,,,,,,,,
-283,01/14,01/13,01/15,,,,,,,,,,,
-284,01/15,01/14,01/16,,,,,,,,,,,
-285,01/16,01/15,01/17,,,,,,,,,,,
-286,01/17,01/16,01/18,,,,,,,,,,,
-287,01/18,01/17,01/19,Circe,,,,,,,,,,
-288,01/19,01/18,01/20,,,,,,,,,,,
-289,01/20,01/19,01/21,,,,,,,,,,,
-290,01/21,01/20,01/22,,,,,,,,,,,
-291,01/22,01/21,01/23,,,,,,,,,,,
-292,01/23,01/22,01/24,,,,,,,,,,,
-293,01/24,01/23,01/25,,,,,,,,,,,
-294,01/25,01/24,01/26,,,,,,,,,,,
-295,01/26,01/25,01/27,,,,,,,,,,,
-296,01/27,01/26,01/28,,,,,,,,,,,
-297,01/28,01/27,01/29,,,,,,,,,,,
-298,01/29,01/28,01/30,,,,,,,,,,,
-299,01/30,01/29,01/31,,,,,,,,,,,
-300,01/31,01/30,99/01,,,,,,,,,,,
-301,99/01,01/31,99/02,,,,,,,,,,,
-302,99/02,99/01,99/03,,,,,,,,,,,
-303,99/03,99/02,99/04,,,,,,,,,,,
-304,99/04,99/03,99/05,,,,,,,,,,,
-305,99/05,99/04,99/06,,,,,,,,,,,
-306,99/06,99/05,99/07,,,,,,,,,,,
-307,99/07,99/06,99/08,,,,,,,,,,,
-308,99/08,99/07,99/09,,,,,,,,,,,
-309,99/09,99/08,99/10,,,,,,,,,,,
-310,99/10,99/09,99/11,,,,,,,,,,,
-311,99/11,99/10,99/12,,,,,,,,,,,
-312,99/12,99/11,99/13,,,,,,,,,,,
-313,99/13,99/12,99/14,,,,,,,,,,,
-314,99/14,99/13,Start,,,,,,,,,,,
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21
+date,dow,prevdate,nextdate,quiz_answer,exam_answer_1,exam_answer_2,exam_answer_3,exam_answer_4,exam_answer_5,arcana,after_school,suggested_answer_1,suggested_answer_2,suggested_answer_3,suggested_answer_4,quest,courage_not_maxed,charm_not_maxed,academic_not_maxed,tartarus,late_night
+04/07,Tue,Start,04/08,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/08,Wed,04/07,04/09,Utsubo Kubota,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/09,Thu,04/08,04/10,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/10,Fri,04/09,04/11,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/11,Sat,04/10,04/12,,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
+04/12,Sun,04/11,04/13,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/13,Mon,04/12,04/14,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/14,Tue,04/13,04/15,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/15,Wed,04/14,04/16,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/16,Thu,04/15,04/17,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/17,Fri,04/16,04/18,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/18,Sat,04/17,04/19,Mud huts,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
+04/19,Sun,04/18,04/20,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/20,Mon,04/19,04/21,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/21,Tue,04/20,04/22,,,,,,,,Cinema - Port Island Station,Watch a movie,,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/22,Wed,04/21,04/23,,,,,,,Magician 1,"Kenji - Classroom, 2nd floor",Go out for Ramen,,,,,Karaoke (800 yen),,,,Study
+04/23,Thu,04/22,04/24,,,,,,,Chariot 1,Gym,Join any of the clubs,,,,,Karaoke (800 yen),,,,Study
+04/24,Fri,04/23,04/25,,,,,,,Magician 2,"Kenji - Classroom, 2nd floor",No or That's a secret,I like older women or I like them all,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/25,Sat,04/24,04/26,,,,,,,Hierophant 1,Bookstore - Iwotodai Station,Talk,Look at tree by Gym in school,Go back to bookstore,Show Leaf,,Coffee (??? yen),,,Tartarus (if needed),Study
+04/26,Sun,04/25,04/27,,,,,,,,Cinema - Port Island Station,Watch a movie,,,,,Karaoke (800 yen),,,,Study
+04/27,Mon,04/26,04/28,6000 years ago,,,,,,Chariot 2,Gym,<b>Invite Yuko to walk together</b>,Toughen Up,Any,Any,,Karaoke (800 yen),,,,Study
+04/28,Tue,04/27,04/29,,,,,,,Magician 3 - Need Persona,"Kenji - Classroom, 2nd floor","What, life?",Go for it,,,,"Horror House at game center (3,000 yen)",,,,Study
+04/29,Wed,04/28,04/30,,,,,,,Hermit 1,Dorm - Computer in room,Talk,,,,,Karaoke (800 yen),,,,Study
+04/30,Thu,04/29,05/01,,,,,,,Chariot 3 - Need Persona & Strength 1,Gym & Automatic,Are you sure you're ok?,Will it heal?,,,,Karaoke (800 yen),,,,Study
+05/01,Fri,04/30,05/02,,,,,,,,Hospital visit,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/02,Sat,05/01,05/03,,,,,,,Strength,Yuko - Water fountain 2nd floor,What happened?,I agree,That's true,,Rosin (Yukari),Coffee (??? yen),,,Tartarus (if needed),Study
+05/03,Sun,05/02,05/04,,,,,,,Hermit 2,Dorm - Computer in room,Of course,The outdoors are overrated,,,,Karaoke (800 yen),,,,Study
+05/04,Mon,05/03,05/05,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/05,Tue,05/04,05/06,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/06,Wed,05/05,05/07,Soft Water,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/07,Thu,05/06,05/08,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/08,Fri,05/07,05/09,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/09,Sat,05/08,05/10,,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
+05/10,Sun,05/09,05/11,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/11,Mon,05/10,05/12,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/12,Tue,05/11,05/13,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/13,Wed,05/12,05/14,1700 km/hr,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/14,Thu,05/13,05/15,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/15,Fri,05/14,05/16,Bread,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/16,Sat,05/15,05/17,,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
+05/17,Sun,05/16,05/18,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+05/18,Mon,05/17,05/19,,Bread,Faster than Sound,Hard Water,Nara,,,,,,,,,Karaoke (800 yen),,,,Study
+05/19,Tue,05/18,05/20,,Bread,Faster than Sound,Hard Water,Nara,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
+05/20,Wed,05/19,05/21,,Bread,Faster than Sound,Hard Water,Nara,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,,Study
+05/21,Thu,05/20,05/22,,Bread,Faster than Sound,Hard Water,Nara,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+05/22,Fri,05/21,05/23,,Bread,Faster than Sound,Hard Water,Nara,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus,Study
+05/23,Sat,05/22,05/24,,,,,,,,,,,,,,Coffee (??? yen),Coffee (??? yen),,Tartarus (if needed),Study
+05/24,Sun,05/23,05/25,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,,Study
+05/25,Mon,05/24,05/26,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+05/26,Tue,05/25,05/27,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus (if needed),Study
+05/27,Wed,05/26,05/28,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,Tartarus (if needed),Study
+05/28,Thu,05/27,05/29,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+05/29,Fri,05/28,05/30,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus (if needed),Study
+05/30,Sat,05/29,05/31,,,,,,,,,,,,,,Coffee (??? yen),Coffee (??? yen),,Tartarus (if needed),Study
+05/31,Sun,05/30,06/01,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,,Study
+06/01,Mon,05/31,06/02,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+06/02,Tue,06/01,06/03,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus (if needed),Study
+06/03,Wed,06/02,06/04,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,Tartarus (if needed),Study
+06/04,Thu,06/03,06/05,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+06/05,Fri,06/04,06/06,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus (if needed),Study
+06/06,Sat,06/05,06/07,,,,,,,,,,,,,,Coffee (??? yen),Coffee (??? yen),,Tartarus (if needed),Study
+06/07,Sun,06/06,06/08,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,,Study
+06/08,Mon,06/07,06/09,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+06/09,Tue,06/08,06/10,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),,Tartarus (if needed),Study
+06/10,Wed,06/09,06/11,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),,Tartarus (if needed),Study
+06/11,Thu,06/10,06/12,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",,,Study
+06/12,Fri,06/11,06/13,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),Study,Tartarus (if needed),Study
+06/13,Sat,06/12,06/14,,,,,,,,,,,,,,Coffee (??? yen),Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+06/14,Sun,06/13,06/15,,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),Study,,Study
+06/15,Mon,06/14,06/16,And...,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",Study,,Study
+06/16,Tue,06/15,06/17,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),Study,Tartarus (if needed),Study
+06/17,Wed,06/16,06/18,Shamanism,,,,,,,,,,,,,Karaoke (800 yen),Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+06/18,Thu,06/17,06/19,,,,,,,,,,,,,,Karaoke (800 yen),"Photo Sticker at game center (1,500 yen)",Study,,Study
+06/19,Fri,06/18,06/20,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",Coffee (??? yen),Study,Tartarus (if needed),Study
+06/20,Sat,06/19,06/21,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+06/21,Sun,06/20,06/22,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+06/22,Mon,06/21,06/23,Jellyfish,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+06/23,Tue,06/22,06/24,,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+06/24,Wed,06/23,06/25,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+06/25,Thu,06/24,06/26,Dowsing,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+06/26,Fri,06/25,06/27,,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+06/27,Sat,06/26,06/28,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+06/28,Sun,06/27,06/29,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+06/29,Mon,06/28,06/30,It can go either way,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+06/30,Tue,06/29,07/01,,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/01,Wed,06/30,07/02,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/02,Thu,07/01,07/03,,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/03,Fri,07/02,07/04,The Global Heritage Pavilion,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/04,Sat,07/03,07/05,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/05,Sun,07/04,07/06,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+07/06,Mon,07/05,07/07,,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/07,Tue,07/06,07/08,,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/08,Wed,07/07,07/09,"I failed, It's over now.",,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/09,Thu,07/08,07/10,Kondan Einen Shizaihou,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/10,Fri,07/09,07/11,Kabbalah,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/11,Sat,07/10,07/12,Imperial Prince,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/12,Sun,07/11,07/13,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+07/13,Mon,07/12,07/14,,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/14,Tue,07/13,07/15,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/15,Wed,07/14,07/16,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/16,Thu,07/15,07/17,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/17,Fri,07/16,07/18,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/18,Sat,07/17,07/19,,Dowsing,Octopus,Minamoto no Yoritomo,"I want, I learned",,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/19,Sun,07/18,07/20,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+07/20,Mon,07/19,07/21,,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,,Study
+07/21,Tue,07/20,07/22,,,,,,,,,,,,,,,Coffee (??? yen),Study,Tartarus (if needed),Study
+07/22,Wed,07/21,07/23,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/23,Thu,07/22,07/24,,,,,,,,,,,,,,,Coffee (??? yen),Study,,Study
+07/24,Fri,07/23,07/25,,,,,,,,,,,,,,,"Photo Sticker at game center (1,500 yen)",Study,Tartarus (if needed),Study
+07/25,Sat,07/24,07/26,,,,,,,,,,,,,,,Coffee (??? yen),"Quiz at game center (3,000 yen)",Tartarus (if needed),Study
+07/26,Sun,07/25,07/27,,,,,,,,,,,,,,,,Study,,Study
+07/27,Mon,07/26,07/28,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+07/28,Tue,07/27,07/29,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+07/29,Wed,07/28,07/30,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+07/30,Thu,07/29,07/31,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+07/31,Fri,07/30,08/01,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/01,Sat,07/31,08/02,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/02,Sun,08/01,08/03,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/03,Mon,08/02,08/04,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/04,Tue,08/03,08/05,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/05,Wed,08/04,08/06,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/06,Thu,08/05,08/07,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/07,Fri,08/06,08/08,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/08,Sat,08/07,08/09,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/09,Sun,08/08,08/10,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/10,Mon,08/09,08/11,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/11,Tue,08/10,08/12,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/12,Wed,08/11,08/13,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/13,Thu,08/12,08/14,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/14,Fri,08/13,08/15,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/15,Sat,08/14,08/16,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/16,Sun,08/15,08/17,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/17,Mon,08/16,08/18,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/18,Tue,08/17,08/19,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/19,Wed,08/18,08/20,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/20,Thu,08/19,08/21,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/21,Fri,08/20,08/22,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/22,Sat,08/21,08/23,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/23,Sun,08/22,08/24,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/24,Mon,08/23,08/25,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/25,Tue,08/24,08/26,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/26,Wed,08/25,08/27,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/27,Thu,08/26,08/28,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/28,Fri,08/27,08/29,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/29,Sat,08/28,08/30,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+08/30,Sun,08/29,08/31,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+08/31,Mon,08/30,09/01,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/01,Tue,08/31,09/02,Superconductivity,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/02,Wed,09/01,09/03,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/03,Thu,09/02,09/04,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/04,Fri,09/03,09/05,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/05,Sat,09/04,09/06,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/06,Sun,09/05,09/07,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/07,Mon,09/06,09/08,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/08,Tue,09/07,09/09,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/09,Wed,09/08,09/10,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/10,Thu,09/09,09/11,Gochisou-sama,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/11,Fri,09/10,09/12,The Hermetica,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/12,Sat,09/11,09/13,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/13,Sun,09/12,09/14,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/14,Mon,09/13,09/15,Can't let others produce,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/15,Tue,09/14,09/16,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/16,Wed,09/15,09/17,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/17,Thu,09/16,09/18,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/18,Fri,09/17,09/19,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/19,Sat,09/18,09/20,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/20,Sun,09/19,09/21,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/21,Mon,09/20,09/22,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/22,Tue,09/21,09/23,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/23,Wed,09/22,09/24,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/24,Thu,09/23,09/25,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/25,Fri,09/24,09/26,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/26,Sat,09/25,09/27,The Tetractys,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+09/27,Sun,09/26,09/28,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/28,Mon,09/27,09/29,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/29,Tue,09/28,09/30,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+09/30,Wed,09/29,10/01,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+10/01,Thu,09/30,10/02,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/02,Fri,10/01,10/03,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/03,Sat,10/02,10/04,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+10/04,Sun,10/03,10/05,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/05,Mon,10/04,10/06,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/06,Tue,10/05,10/07,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/07,Wed,10/06,10/08,To excite the audience,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+10/08,Thu,10/07,10/09,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/09,Fri,10/08,10/10,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/10,Sat,10/09,10/11,,,,,,,,,,,,,,,,"Quiz at game center (3,000 yen)",,Study
+10/11,Sun,10/10,10/12,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/12,Mon,10/11,10/13,,,,,,,,,,,,,,,,Study,Tartarus (if needed),Study
+10/13,Tue,10/12,10/14,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,,,,,,,Tartarus (if needed),
+10/14,Wed,10/13,10/15,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,,,,,,,Tartarus (if needed),
+10/15,Thu,10/14,10/16,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,,,,,,,Tartarus (if needed),
+10/16,Fri,10/15,10/17,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,,,,,,,Tartarus (if needed),
+10/17,Sat,10/16,10/18,,Husbands,Pythagoras,Zero Electrical Resistance,Coup of Meiou,,,,,,,,,,,,Tartarus (if needed),
+10/18,Sun,10/17,10/19,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/19,Mon,10/18,10/20,Fourteen,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/20,Tue,10/19,10/21,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/21,Wed,10/20,10/22,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/22,Thu,10/21,10/23,By fermenting them,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/23,Fri,10/22,10/24,Madam Blavatsky,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/24,Sat,10/23,10/25,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/25,Sun,10/24,10/26,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/26,Mon,10/25,10/27,Wristwatch,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/27,Tue,10/26,10/28,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/28,Wed,10/27,10/29,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/29,Thu,10/28,10/30,Lactase,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/30,Fri,10/29,10/31,,,,,,,,,,,,,,,,,Tartarus (if needed),
+10/31,Sat,10/30,11/01,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/01,Sun,10/31,11/02,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/02,Mon,11/01,11/03,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/03,Tue,11/02,11/04,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/04,Wed,11/03,11/05,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/05,Thu,11/04,11/06,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/06,Fri,11/05,11/07,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/07,Sat,11/06,11/08,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/08,Sun,11/07,11/09,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/09,Mon,11/08,11/10,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/10,Tue,11/09,11/11,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/11,Wed,11/10,11/12,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/12,Thu,11/11,11/13,The Upanishads,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/13,Fri,11/12,11/14,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/14,Sat,11/13,11/15,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/15,Sun,11/14,11/16,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/16,Mon,11/15,11/17,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/17,Tue,11/16,11/18,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/18,Wed,11/17,11/19,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/19,Thu,11/18,11/20,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/20,Fri,11/19,11/21,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/21,Sat,11/20,11/22,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/22,Sun,11/21,11/23,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/23,Mon,11/22,11/24,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/24,Tue,11/23,11/25,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/25,Wed,11/24,11/26,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/26,Thu,11/25,11/27,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/27,Fri,11/26,11/28,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/28,Sat,11/27,11/29,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/29,Sun,11/28,11/30,,,,,,,,,,,,,,,,,Tartarus (if needed),
+11/30,Mon,11/29,12/01,They did both,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/01,Tue,11/30,12/02,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/02,Wed,12/01,12/03,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/03,Thu,12/02,12/04,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/04,Fri,12/03,12/05,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/05,Sat,12/04,12/06,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/06,Sun,12/05,12/07,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/07,Mon,12/06,12/08,Ozone,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/08,Tue,12/07,12/09,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/09,Wed,12/08,12/10,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/10,Thu,12/09,12/11,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/11,Fri,12/10,12/12,Cacti,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/12,Sat,12/11,12/13,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/13,Sun,12/12,12/14,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/14,Mon,12/13,12/15,,1185,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,,,,,,,Tartarus (if needed),
+12/15,Tue,12/14,12/16,,1186,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,,,,,,,Tartarus (if needed),
+12/16,Wed,12/15,12/17,,1187,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,,,,,,,Tartarus (if needed),
+12/17,Thu,12/16,12/18,,1188,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,,,,,,,Tartarus (if needed),
+12/18,Fri,12/17,12/19,,1189,Oxygen,Left-hand Rule,Winter mornings are pleasant,Cacti,,,,,,,,,,,Tartarus (if needed),
+12/19,Sat,12/18,12/20,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/20,Sun,12/19,12/21,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/21,Mon,12/20,12/22,Kido,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/22,Tue,12/21,12/23,Euphoria,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/23,Wed,12/22,12/24,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/24,Thu,12/23,12/25,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/25,Fri,12/24,12/26,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/26,Sat,12/25,12/27,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/27,Sun,12/26,12/28,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/28,Mon,12/27,12/29,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/29,Tue,12/28,12/30,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/30,Wed,12/29,12/31,,,,,,,,,,,,,,,,,Tartarus (if needed),
+12/31,Thu,12/30,01/01,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/01,Fri,12/31,01/02,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/02,Sat,01/01,01/03,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/03,Sun,01/02,01/04,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/04,Mon,01/03,01/05,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/05,Tue,01/04,01/06,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/06,Wed,01/05,01/07,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/07,Thu,01/06,01/08,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/08,Fri,01/07,01/09,It's wrong,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/09,Sat,01/08,01/10,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/10,Sun,01/09,01/11,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/11,Mon,01/10,01/12,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/12,Tue,01/11,01/13,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/13,Wed,01/12,01/14,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/14,Thu,01/13,01/15,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/15,Fri,01/14,01/16,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/16,Sat,01/15,01/17,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/17,Sun,01/16,01/18,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/18,Mon,01/17,01/19,Circe,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/19,Tue,01/18,01/20,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/20,Wed,01/19,01/21,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/21,Thu,01/20,01/22,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/22,Fri,01/21,01/23,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/23,Sat,01/22,01/24,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/24,Sun,01/23,01/25,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/25,Mon,01/24,01/26,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/26,Tue,01/25,01/27,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/27,Wed,01/26,01/28,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/28,Thu,01/27,01/29,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/29,Fri,01/28,01/30,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/30,Sat,01/29,01/31,,,,,,,,,,,,,,,,,Tartarus (if needed),
+01/31,Sun,01/30,99/01,,,,,,,,,,,,,,,,,Tartarus (if needed),
+99/01,???,01/31,99/02,,,,,,,,,,,,,,,,,,
+99/02,???,99/01,99/03,,,,,,,,,,,,,,,,,,
+99/03,???,99/02,99/04,,,,,,,,,,,,,,,,,,
+99/04,???,99/03,99/05,,,,,,,,,,,,,,,,,,
+99/05,???,99/04,99/06,,,,,,,,,,,,,,,,,,
+99/06,???,99/05,99/07,,,,,,,,,,,,,,,,,,
+99/07,???,99/06,99/08,,,,,,,,,,,,,,,,,,
+99/08,???,99/07,99/09,,,,,,,,,,,,,,,,,,
+99/09,???,99/08,99/10,,,,,,,,,,,,,,,,,,
+99/10,???,99/09,99/11,,,,,,,,,,,,,,,,,,
+99/11,???,99/10,99/12,,,,,,,,,,,,,,,,,,
+99/12,???,99/11,99/13,,,,,,,,,,,,,,,,,,
+99/13,???,99/12,99/14,,,,,,,,,,,,,,,,,,
+99/14,???,99/13,Start,,,,,,,,,,,,,,,,,,
