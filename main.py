@@ -3,48 +3,49 @@
 import webapp2
 import jinja2
 import os
-from datetime import date, timedelta
+import csv
 from google.appengine.ext import db
 
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
-class MainHandler(webapp2.RequestHandler):
-	def get_gamedate(self, today='4/7'):
-		t = today.split('/')
-		d = date(2009, int(t[0]), int(t[1]))
-		return d
-	
-	def get_yesterday(self, startdate):
-		yesterday = startdate - timedelta(days=1)
-		if yesterday < date(2009, 4, 7):
-			return None
-		return yesterday.strftime("%m/%d")
-		
-	def get_tomorrow(self, startdate):
-		tomorrow = startdate + timedelta(days=1)
-		if tomorrow > date(2010, 1, 31):
-			return None
-		return tomorrow.strftime("%m/%d")
-		
-	def get_items(self, day):
-		return ['Do nothing']
+class Day():
+    def __init__(self, day):
+        file = open(os.path.join(os.path.dirname(__file__), 'data.csv'))
+	fileReader = csv.reader(file)
+	tmp = []
+	for line in fileReader:
+            if line[1] == day:
+                tmp = line
+                break
 
-	def get(self, *ar, **kw):
-		try:
-			today = self.get_gamedate(ar[0])
-		except:
-			today = self.get_gamedate()
-	
-		template_values = {
-			'prev': self.get_yesterday(today),
-			'today': today.strftime("%m/%d"),
-			'next': self.get_tomorrow(today),
-			'todo': self.get_items(today)
-		}
-		
-		template = jinja_environment.get_template('templates/date.html')
-		self.response.out.write(template.render(template_values))
+        self.current = tmp[1]
+	self.prev = tmp[2]
+        self.next = tmp[3]
+
+        self.quiz = tmp[4]
+        self.exam = tmp[5:9]
+        self.exam = filter(None, self.exam)
+        self.where = tmp[10]
+        self.answers = tmp[11:-1]
+        self.answers = filter(None, self.answers)
+
+class MainHandler(webapp2.RequestHandler):
+    def get(self, *ar, **kw):
+        today = Day(ar[0])
+
+        template_values = {
+            'prev': today.prev,
+            'today': today.current,
+            'next': today.next,
+            'quiz': today.quiz,
+            'where': today.where,
+            'exam': today.exam,
+            'answers': today.answers
+        }
+        
+        template = jinja_environment.get_template('templates/date.html')
+        self.response.out.write(template.render(template_values))
 
 
 app = webapp2.WSGIApplication([

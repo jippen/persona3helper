@@ -1,40 +1,57 @@
 <html>
   <head>
     <title>Persona 3 Guide</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
   </head>
   <body>
   <div data-role="page">
 
     <div data-role="header" data-title="Start">
-	  {% if prev -%}
-	  <a href="/{{prev}}" data-icon="arrow-l" data-iconpos="left" data-prefetch>{{prev}}</a> 
-	  {% else -%}
-	  <a href="/" data-icon="arrow-l" data-iconpos="left" data-prefetch>Start</a> 
-	  {% endif -%}
+    {% if prev -%}
+    <a href="/{{prev}}" data-icon="arrow-l" data-iconpos="left" data-prefetch>{{prev}}</a> 
+    {% else -%}
+    <a href="/" data-icon="arrow-l" data-iconpos="left" data-prefetch>Start</a> 
+    {% endif -%}
       <h1>{{today}}</h1>
-	  {% if next -%}
-	  <a href="/{{next}}" data-icon="arrow-r" data-iconpos="right" data-prefetch>{{next}}</a>
-	  {% else -%}
-	  <a href="/" data-icon="arrow-l" data-iconpos="right" style="display:none">Start</a> 
-	  {% endif -%}
+    {% if next -%}
+    <a href="/{{next}}" data-icon="arrow-r" data-iconpos="right" data-prefetch>{{next}}</a>
+    {% else -%}
+    <a href="/" data-icon="arrow-l" data-iconpos="right" style="display:none">Start</a> 
+    {% endif -%}
     </div>
 
-    <div data-role="content">	
-	
-	<div data-role="fieldcontain" >
-    <fieldset data-role="controlgroup" class="ui-hide-label">
-	   <legend>Things to do today</legend>
-	   {% for thing in todo -%}
-	   <input type="checkbox" name="checkbox-{{thing}}" id="checkbox-{{thing}}" class="custom" />
-	   <label for="checkbox-{{thing}}">{{thing}}</label>
-	   {% endfor -%}
-    </fieldset>
-	</div><!-- /data-role="fieldcontain" -->
-        
+    <div data-role="content">
+      {% if quiz -%}  
+      <ul data-role="listview">
+        <li data-role="list-divider">Quiz Answer</li>
+        <li>{{ quiz }}</li>
+      </ul>
+      {% endif -%}
+      {% if exam -%}  
+      <ul data-role="listview">
+        <li data-role="list-divider">Exam Answers</li>
+        {% for answer in exam -%}
+        <li>{{ answer }}</li>
+        {% endfor -%}
+      </ul>
+      {% endif -%}
+      {% if where -%}  
+      <ul data-role="listview">
+        <li data-role="list-divider">Where to go</li>
+        <li>{{ where }}</li>
+      </ul>
+      {% endif -%}
+      {% if answers -%}  
+      <ul data-role="listview">
+        <li data-role="list-divider">Question Answers</li>
+        {% for answer in answers -%}
+        <li>{{ answer }}</li>
+        {% endfor -%}
+      </ul>
+      {% endif -%}
     </div><!-- /content -->
 
   </div><!-- /page -->
