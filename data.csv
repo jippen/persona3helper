@@ -1,19 +1,19 @@
 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21
 date,dow,prevdate,nextdate,quiz_answer,exam_answer_1,exam_answer_2,exam_answer_3,exam_answer_4,exam_answer_5,arcana,after_school,suggested_answer_1,suggested_answer_2,suggested_answer_3,suggested_answer_4,quest,courage_not_maxed,charm_not_maxed,academic_not_maxed,tartarus,late_night
-04/07,Tue,Start,04/08,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
-04/08,Wed,04/07,04/09,Utsubo Kubota,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/09,Thu,04/08,04/10,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/10,Fri,04/09,04/11,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
-04/11,Sat,04/10,04/12,,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
-04/12,Sun,04/11,04/13,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/13,Mon,04/12,04/14,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/14,Tue,04/13,04/15,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
-04/15,Wed,04/14,04/16,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/16,Thu,04/15,04/17,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/17,Fri,04/16,04/18,,,,,,,,,,,,,,"Horror House at game center (3,000 yen)",,,,Study
-04/18,Sat,04/17,04/19,Mud huts,,,,,,,,,,,,,Coffee (??? yen),,,Tartarus (if needed),Study
-04/19,Sun,04/18,04/20,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
-04/20,Mon,04/19,04/21,,,,,,,,,,,,,,Karaoke (800 yen),,,,Study
+04/07,Tue,Start,04/08,,,,,,,,,,,,,,,,,,
+04/08,Wed,04/07,04/09,Utsubo Kubota,,,,,,,,,,,,,,,,,
+04/09,Thu,04/08,04/10,,,,,,,,,,,,,,,,,,
+04/10,Fri,04/09,04/11,,,,,,,,,,,,,,,,,,
+04/11,Sat,04/10,04/12,,,,,,,,,,,,,,,,,,
+04/12,Sun,04/11,04/13,,,,,,,,,,,,,,,,,,
+04/13,Mon,04/12,04/14,,,,,,,,,,,,,,,,,,
+04/14,Tue,04/13,04/15,,,,,,,,,,,,,,,,,,
+04/15,Wed,04/14,04/16,,,,,,,,,,,,,,,,,,
+04/16,Thu,04/15,04/17,,,,,,,,,,,,,,,,,,
+04/17,Fri,04/16,04/18,,,,,,,,,,,,,,,,,,
+04/18,Sat,04/17,04/19,Mud huts,,,,,,,,,,,,,,,,,
+04/19,Sun,04/18,04/20,,,,,,,,,,,,,,,,,,
+04/20,Mon,04/19,04/21,,,,,,,,,,,,,,,,,,Study
 04/21,Tue,04/20,04/22,,,,,,,,Cinema - Port Island Station,Watch a movie,,,,,"Horror House at game center (3,000 yen)",,,,Study
 04/22,Wed,04/21,04/23,,,,,,,Magician 1,"Kenji - Classroom, 2nd floor",Go out for Ramen,,,,,Karaoke (800 yen),,,,Study
 04/23,Thu,04/22,04/24,,,,,,,Chariot 1,Gym,Join any of the clubs,,,,,Karaoke (800 yen),,,,Study
