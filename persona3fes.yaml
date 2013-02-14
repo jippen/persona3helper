@@ -1,0 +1,1713 @@
+default: &default
+  prev: !!null
+  next: !!null
+  morning: !!null
+  afterschool: !!null
+  evening: !!null
+  latenight:
+    - Study
+
+courage:
+  Monday: 
+    do: Karaoke
+    cost: 800
+  Tuesday:
+    do: Horror House @ Game Center
+    cost: 3000
+  Wednesday:
+    do: Karaoke
+    cost: 800
+  Thursday:
+    do: Karaoke
+    cost: 800
+  Friday:
+    do: Horror House @ Game Center
+    cost: 3000
+  Saturday:
+    do: Coffee
+    cost: 800
+    tartarus: ok
+  Sunday:
+    do: Karaoke
+    cost: 800
+  ???: 
+    do: Boost courage
+    cost: 0
+    tartarus: ok
+    
+charm:
+  Monday: 
+    do: Photo Sticker @ Game Center
+    cost: 1500
+  Tuesday:
+    do: Coffee
+    cost: 500
+    tartarus: ok
+  Wednesday:
+    do: Coffee
+    cost: 500
+    tartarus: ok
+  Thursday:
+    do: Photo Sticker @ Game Center
+    cost: 1500
+  Friday:
+    do: Coffee
+    cost: 500 
+    tartarus: ok
+  Saturday:
+    do: Coffee
+    cost: 500
+    tartarus: ok
+  Sunday:
+    do: Coffee
+    cost: 500
+    tartarus: ok
+  ???: 
+    do: Boost charm
+    cost: 0
+
+academic:
+  Monday: 
+    do: Study
+    cost: 0
+    tartarus: ok
+  Tuesday:
+    do: Study
+    cost: 0
+    tartarus: ok
+  Wednesday:
+    do: Quiz @ Game Center
+    cost: 3000
+  Thursday:
+    do: Study
+    cost: 0
+    tartarus: ok
+  Friday:
+    do: Study
+    cost: 0
+    tartarus: ok
+  Saturday:
+    do: Quiz @ Game Center
+    cost: 3000
+  Sunday:
+    do: Study
+    cost: 0
+    tartarus: ok
+  ???: 
+    do: Boost academic
+    cost: 0
+
+cmonth: &cmonth
+  evening:
+    build:
+      - courage
+ 
+cchmonth: &cchmonth
+  evening:
+    build:
+      - courage
+      - charm
+
+chmonth: &chmonth
+  evening:
+    build:
+      - charm
+      
+chamonth: &chamonth
+  evening:
+    build:
+      - charm
+      - academic
+
+amonth: &amonth
+  evening:
+    build:
+      - academic
+
+####################################################  
+# Days
+####################################################
+04/07:
+  <<: *default
+  prev: Start
+  next: 04/08
+  latenight:
+    - No Control
+
+04/08:
+  prev: 04/07
+  next: 04/09
+  morning:
+    quiz: Utsubo Kubota
+  latenight:
+    - No Control
+  <<: *default
+
+04/09:
+  prev: 04/07
+  next: 04/17
+  latenight:
+    - No Control
+  <<: *default
+
+04/17:
+  prev: 04/09
+  next: 04/18
+  <<: *default
+
+04/18:
+  prev: 04/17
+  next: 04/19
+  morning:
+    quiz: Mud Huts
+  <<: *cmonth
+
+04/19:
+  prev: 04/18
+  next: 04/20
+  <<: *cmonth
+04/20:
+  prev: 04/19
+  next: 04/21
+  <<: *cmonth
+
+04/21:
+  prev: 04/20
+  next: 04/22
+  afterschool:
+    goto: Cinema - Port Island Station
+    do:
+      - Watch a movie
+  <<: *cmonth
+ 
+####################################################  
+# Current
+####################################################
+04/22:
+  prev: 04/21
+  next: 04/23
+  <<: *default
+
+04/23:
+  prev: 04/22
+  next: 04/24
+  <<: *default
+
+04/24:
+  prev: 04/23
+  next: 04/25
+  <<: *default
+
+04/25:
+  prev: 04/24
+  next: 04/26
+  <<: *default
+
+04/26:
+  prev: 04/25
+  next: 04/27
+  <<: *default
+
+04/27:
+  prev: 04/26
+  next: 04/28
+  <<: *default
+
+04/28:
+  prev: 04/27
+  next: 04/29
+  <<: *default
+
+04/29:
+  prev: 04/28
+  next: 04/30
+  <<: *default
+
+04/30:
+  prev: 04/29
+  next: 05/01
+  <<: *default
+
+05/01:
+  prev: 04/30
+  next: 05/02
+  <<: *default
+
+05/02:
+  prev: 05/01
+  next: 05/03
+  <<: *default
+
+05/03:
+  prev: 05/02
+  next: 05/04
+  <<: *default
+
+05/04:
+  prev: 05/03
+  next: 05/05
+  <<: *default
+
+05/05:
+  prev: 05/04
+  next: 05/06
+  <<: *default
+
+05/06:
+  prev: 05/05
+  next: 05/07
+  <<: *default
+
+05/07:
+  prev: 05/06
+  next: 05/08
+  <<: *default
+
+05/08:
+  prev: 05/07
+  next: 05/09
+  <<: *default
+
+05/09:
+  prev: 05/08
+  next: 05/10
+  <<: *default
+
+05/10:
+  prev: 05/09
+  next: 05/11
+  <<: *default
+
+05/11:
+  prev: 05/10
+  next: 05/12
+  <<: *default
+
+05/12:
+  prev: 05/11
+  next: 05/13
+  <<: *default
+
+05/13:
+  prev: 05/12
+  next: 05/14
+  <<: *default
+
+05/14:
+  prev: 05/13
+  next: 05/15
+  <<: *default
+
+05/15:
+  prev: 05/14
+  next: 05/16
+  <<: *default
+
+05/16:
+  prev: 05/15
+  next: 05/17
+  <<: *default
+
+05/17:
+  prev: 05/16
+  next: 05/18
+  <<: *default
+
+05/18:
+  prev: 05/17
+  next: 05/19
+  morning:
+    exam:
+      - Bread
+      - Faster than sound
+      - Hard Water
+      - Nara
+  <<: *default
+
+05/19:
+  prev: 05/18
+  next: 05/20
+  <<: *default
+
+05/20:
+  prev: 05/19
+  next: 05/21
+  <<: *default
+
+05/21:
+  prev: 05/20
+  next: 05/22
+  <<: *default
+
+05/22:
+  prev: 05/21
+  next: 05/23
+  <<: *default
+
+05/23:
+  prev: 05/22
+  next: 05/24
+  <<: *default
+
+05/24:
+  prev: 05/23
+  next: 05/25
+  <<: *default
+
+05/25:
+  prev: 05/24
+  next: 05/26
+  <<: *default
+
+05/26:
+  prev: 05/25
+  next: 05/27
+  <<: *default
+
+05/27:
+  prev: 05/26
+  next: 05/28
+  <<: *default
+
+05/28:
+  prev: 05/27
+  next: 05/29
+  <<: *default
+
+05/29:
+  prev: 05/28
+  next: 05/30
+  <<: *default
+
+05/30:
+  prev: 05/29
+  next: 05/31
+  <<: *default
+
+05/31:
+  prev: 05/30
+  next: 06/01
+  <<: *default
+
+06/01:
+  prev: 05/31
+  next: 06/02
+  <<: *default
+
+06/02:
+  prev: 06/01
+  next: 06/03
+  <<: *default
+
+06/03:
+  prev: 06/02
+  next: 06/04
+  <<: *default
+
+06/04:
+  prev: 06/03
+  next: 06/05
+  <<: *default
+
+06/05:
+  prev: 06/04
+  next: 06/06
+  <<: *default
+
+06/06:
+  prev: 06/05
+  next: 06/07
+  <<: *default
+
+06/07:
+  prev: 06/06
+  next: 06/08
+  <<: *default
+
+06/08:
+  prev: 06/07
+  next: 06/09
+  <<: *default
+
+06/09:
+  prev: 06/08
+  next: 06/10
+  <<: *default
+
+06/10:
+  prev: 06/09
+  next: 06/11
+  <<: *default
+
+06/11:
+  prev: 06/10
+  next: 06/12
+  <<: *default
+
+06/12:
+  prev: 06/11
+  next: 06/13
+  <<: *default
+
+06/13:
+  prev: 06/12
+  next: 06/14
+  <<: *default
+
+06/14:
+  prev: 06/13
+  next: 06/15
+  <<: *default
+
+06/15:
+  prev: 06/14
+  next: 06/16
+  <<: *default
+
+06/16:
+  prev: 06/15
+  next: 06/17
+  <<: *default
+
+06/17:
+  prev: 06/16
+  next: 06/18
+  <<: *default
+
+06/18:
+  prev: 06/17
+  next: 06/19
+  <<: *default
+
+06/19:
+  prev: 06/18
+  next: 06/20
+  <<: *default
+
+06/20:
+  prev: 06/19
+  next: 06/21
+  <<: *default
+
+06/21:
+  prev: 06/20
+  next: 06/22
+  <<: *default
+
+06/22:
+  prev: 06/21
+  next: 06/23
+  <<: *default
+
+06/23:
+  prev: 06/22
+  next: 06/24
+  <<: *default
+
+06/24:
+  prev: 06/23
+  next: 06/25
+  <<: *default
+
+06/25:
+  prev: 06/24
+  next: 06/26
+  <<: *default
+
+06/26:
+  prev: 06/25
+  next: 06/27
+  <<: *default
+
+06/27:
+  prev: 06/26
+  next: 06/28
+  <<: *default
+
+06/28:
+  prev: 06/27
+  next: 06/29
+  <<: *default
+
+06/29:
+  prev: 06/28
+  next: 06/30
+  <<: *default
+
+06/30:
+  prev: 06/29
+  next: 07/01
+  <<: *default
+
+07/01:
+  prev: 06/30
+  next: 07/02
+  <<: *default
+
+07/02:
+  prev: 07/01
+  next: 07/03
+  <<: *default
+
+07/03:
+  prev: 07/02
+  next: 07/04
+  <<: *default
+
+07/04:
+  prev: 07/03
+  next: 07/05
+  <<: *default
+
+07/05:
+  prev: 07/04
+  next: 07/06
+  <<: *default
+
+07/06:
+  prev: 07/05
+  next: 07/07
+  <<: *default
+
+07/07:
+  prev: 07/06
+  next: 07/08
+  <<: *default
+
+07/08:
+  prev: 07/07
+  next: 07/09
+  <<: *default
+
+07/09:
+  prev: 07/08
+  next: 07/10
+  <<: *default
+
+07/10:
+  prev: 07/09
+  next: 07/11
+  <<: *default
+
+07/11:
+  prev: 07/10
+  next: 07/12
+  <<: *default
+
+07/12:
+  prev: 07/11
+  next: 07/13
+  <<: *default
+
+07/13:
+  prev: 07/12
+  next: 07/14
+  <<: *default
+
+07/14:
+  prev: 07/13
+  next: 07/15
+  <<: *default
+
+07/15:
+  prev: 07/14
+  next: 07/16
+  <<: *default
+
+07/16:
+  prev: 07/15
+  next: 07/17
+  <<: *default
+
+07/17:
+  prev: 07/16
+  next: 07/18
+  <<: *default
+
+07/18:
+  prev: 07/17
+  next: 07/19
+  <<: *default
+
+07/19:
+  prev: 07/18
+  next: 07/20
+  <<: *default
+
+07/20:
+  prev: 07/19
+  next: 07/21
+  <<: *default
+
+07/21:
+  prev: 07/20
+  next: 07/22
+  <<: *default
+
+07/22:
+  prev: 07/21
+  next: 07/23
+  <<: *default
+
+07/23:
+  prev: 07/22
+  next: 07/24
+  <<: *default
+
+07/24:
+  prev: 07/23
+  next: 07/25
+  <<: *default
+
+07/25:
+  prev: 07/24
+  next: 07/26
+  <<: *default
+
+07/26:
+  prev: 07/25
+  next: 07/27
+  <<: *default
+
+07/27:
+  prev: 07/26
+  next: 07/28
+  <<: *default
+
+07/28:
+  prev: 07/27
+  next: 07/29
+  <<: *default
+
+07/29:
+  prev: 07/28
+  next: 07/30
+  <<: *default
+
+07/30:
+  prev: 07/29
+  next: 07/31
+  <<: *default
+
+07/31:
+  prev: 07/30
+  next: 08/01
+  <<: *default
+
+08/01:
+  prev: 07/31
+  next: 08/02
+  <<: *default
+
+08/02:
+  prev: 08/01
+  next: 08/03
+  <<: *default
+
+08/03:
+  prev: 08/02
+  next: 08/04
+  <<: *default
+
+08/04:
+  prev: 08/03
+  next: 08/05
+  <<: *default
+
+08/05:
+  prev: 08/04
+  next: 08/06
+  <<: *default
+
+08/06:
+  prev: 08/05
+  next: 08/07
+  <<: *default
+
+08/07:
+  prev: 08/06
+  next: 08/08
+  <<: *default
+
+08/08:
+  prev: 08/07
+  next: 08/09
+  <<: *default
+
+08/09:
+  prev: 08/08
+  next: 08/10
+  <<: *default
+
+08/10:
+  prev: 08/09
+  next: 08/11
+  <<: *default
+
+08/11:
+  prev: 08/10
+  next: 08/12
+  <<: *default
+
+08/12:
+  prev: 08/11
+  next: 08/13
+  <<: *default
+
+08/13:
+  prev: 08/12
+  next: 08/14
+  <<: *default
+
+08/14:
+  prev: 08/13
+  next: 08/15
+  <<: *default
+
+08/15:
+  prev: 08/14
+  next: 08/16
+  <<: *default
+
+08/16:
+  prev: 08/15
+  next: 08/17
+  <<: *default
+
+08/17:
+  prev: 08/16
+  next: 08/18
+  <<: *default
+
+08/18:
+  prev: 08/17
+  next: 08/19
+  <<: *default
+
+08/19:
+  prev: 08/18
+  next: 08/20
+  <<: *default
+
+08/20:
+  prev: 08/19
+  next: 08/21
+  <<: *default
+
+08/21:
+  prev: 08/20
+  next: 08/22
+  <<: *default
+
+08/22:
+  prev: 08/21
+  next: 08/23
+  <<: *default
+
+08/23:
+  prev: 08/22
+  next: 08/24
+  <<: *default
+
+08/24:
+  prev: 08/23
+  next: 08/25
+  <<: *default
+
+08/25:
+  prev: 08/24
+  next: 08/26
+  <<: *default
+
+08/26:
+  prev: 08/25
+  next: 08/27
+  <<: *default
+
+08/27:
+  prev: 08/26
+  next: 08/28
+  <<: *default
+
+08/28:
+  prev: 08/27
+  next: 08/29
+  <<: *default
+
+08/29:
+  prev: 08/28
+  next: 08/30
+  <<: *default
+
+08/30:
+  prev: 08/29
+  next: 08/31
+  <<: *default
+
+08/31:
+  prev: 08/30
+  next: 09/01
+  <<: *default
+
+09/01:
+  prev: 08/31
+  next: 09/02
+  <<: *default
+
+09/02:
+  prev: 09/01
+  next: 09/03
+  <<: *default
+
+09/03:
+  prev: 09/02
+  next: 09/04
+  <<: *default
+
+09/04:
+  prev: 09/03
+  next: 09/05
+  <<: *default
+
+09/05:
+  prev: 09/04
+  next: 09/06
+  <<: *default
+
+09/06:
+  prev: 09/05
+  next: 09/07
+  <<: *default
+
+09/07:
+  prev: 09/06
+  next: 09/08
+  <<: *default
+
+09/08:
+  prev: 09/07
+  next: 09/09
+  <<: *default
+
+09/09:
+  prev: 09/08
+  next: 09/10
+  <<: *default
+
+09/10:
+  prev: 09/09
+  next: 09/11
+  <<: *default
+
+09/11:
+  prev: 09/10
+  next: 09/12
+  <<: *default
+
+09/12:
+  prev: 09/11
+  next: 09/13
+  <<: *default
+
+09/13:
+  prev: 09/12
+  next: 09/14
+  <<: *default
+
+09/14:
+  prev: 09/13
+  next: 09/15
+  <<: *default
+
+09/15:
+  prev: 09/14
+  next: 09/16
+  <<: *default
+
+09/16:
+  prev: 09/15
+  next: 09/17
+  <<: *default
+
+09/17:
+  prev: 09/16
+  next: 09/18
+  <<: *default
+
+09/18:
+  prev: 09/17
+  next: 09/19
+  <<: *default
+
+09/19:
+  prev: 09/18
+  next: 09/20
+  <<: *default
+
+09/20:
+  prev: 09/19
+  next: 09/21
+  <<: *default
+
+09/21:
+  prev: 09/20
+  next: 09/22
+  <<: *default
+
+09/22:
+  prev: 09/21
+  next: 09/23
+  <<: *default
+
+09/23:
+  prev: 09/22
+  next: 09/24
+  <<: *default
+
+09/24:
+  prev: 09/23
+  next: 09/25
+  <<: *default
+
+09/25:
+  prev: 09/24
+  next: 09/26
+  <<: *default
+
+09/26:
+  prev: 09/25
+  next: 09/27
+  <<: *default
+
+09/27:
+  prev: 09/26
+  next: 09/28
+  <<: *default
+
+09/28:
+  prev: 09/27
+  next: 09/29
+  <<: *default
+
+09/29:
+  prev: 09/28
+  next: 09/30
+  <<: *default
+
+09/30:
+  prev: 09/29
+  next: 10/01
+  <<: *default
+
+10/01:
+  prev: 09/30
+  next: 10/02
+  <<: *default
+
+10/02:
+  prev: 10/01
+  next: 10/03
+  <<: *default
+
+10/03:
+  prev: 10/02
+  next: 10/04
+  <<: *default
+
+10/04:
+  prev: 10/03
+  next: 10/05
+  <<: *default
+
+10/05:
+  prev: 10/04
+  next: 10/06
+  <<: *default
+
+10/06:
+  prev: 10/05
+  next: 10/07
+  <<: *default
+
+10/07:
+  prev: 10/06
+  next: 10/08
+  <<: *default
+
+10/08:
+  prev: 10/07
+  next: 10/09
+  <<: *default
+
+10/09:
+  prev: 10/08
+  next: 10/10
+  <<: *default
+
+10/10:
+  prev: 10/09
+  next: 10/11
+  <<: *default
+
+10/11:
+  prev: 10/10
+  next: 10/12
+  <<: *default
+
+10/12:
+  prev: 10/11
+  next: 10/13
+  <<: *default
+
+10/13:
+  prev: 10/12
+  next: 10/14
+  <<: *default
+
+10/14:
+  prev: 10/13
+  next: 10/15
+  <<: *default
+
+10/15:
+  prev: 10/14
+  next: 10/16
+  <<: *default
+
+10/16:
+  prev: 10/15
+  next: 10/17
+  <<: *default
+
+10/17:
+  prev: 10/16
+  next: 10/18
+  <<: *default
+
+10/18:
+  prev: 10/17
+  next: 10/19
+  <<: *default
+
+10/19:
+  prev: 10/18
+  next: 10/20
+  <<: *default
+
+10/20:
+  prev: 10/19
+  next: 10/21
+  <<: *default
+
+10/21:
+  prev: 10/20
+  next: 10/22
+  <<: *default
+
+10/22:
+  prev: 10/21
+  next: 10/23
+  <<: *default
+
+10/23:
+  prev: 10/22
+  next: 10/24
+  <<: *default
+
+10/24:
+  prev: 10/23
+  next: 10/25
+  <<: *default
+
+10/25:
+  prev: 10/24
+  next: 10/26
+  <<: *default
+
+10/26:
+  prev: 10/25
+  next: 10/27
+  <<: *default
+
+10/27:
+  prev: 10/26
+  next: 10/28
+  <<: *default
+
+10/28:
+  prev: 10/27
+  next: 10/29
+  <<: *default
+
+10/29:
+  prev: 10/28
+  next: 10/30
+  <<: *default
+
+10/30:
+  prev: 10/29
+  next: 10/31
+  <<: *default
+
+10/31:
+  prev: 10/30
+  next: 11/01
+  <<: *default
+
+11/01:
+  prev: 10/31
+  next: 11/02
+  <<: *default
+
+11/02:
+  prev: 11/01
+  next: 11/03
+  <<: *default
+
+11/03:
+  prev: 11/02
+  next: 11/04
+  <<: *default
+
+11/04:
+  prev: 11/03
+  next: 11/05
+  <<: *default
+
+11/05:
+  prev: 11/04
+  next: 11/06
+  <<: *default
+
+11/06:
+  prev: 11/05
+  next: 11/07
+  <<: *default
+
+11/07:
+  prev: 11/06
+  next: 11/08
+  <<: *default
+
+11/08:
+  prev: 11/07
+  next: 11/09
+  <<: *default
+
+11/09:
+  prev: 11/08
+  next: 11/10
+  <<: *default
+
+11/10:
+  prev: 11/09
+  next: 11/11
+  <<: *default
+
+11/11:
+  prev: 11/10
+  next: 11/12
+  <<: *default
+
+11/12:
+  prev: 11/11
+  next: 11/13
+  <<: *default
+
+11/13:
+  prev: 11/12
+  next: 11/14
+  <<: *default
+
+11/14:
+  prev: 11/13
+  next: 11/15
+  <<: *default
+
+11/15:
+  prev: 11/14
+  next: 11/16
+  <<: *default
+
+11/16:
+  prev: 11/15
+  next: 11/17
+  <<: *default
+
+11/17:
+  prev: 11/16
+  next: 11/18
+  <<: *default
+
+11/18:
+  prev: 11/17
+  next: 11/19
+  <<: *default
+
+11/19:
+  prev: 11/18
+  next: 11/20
+  <<: *default
+
+11/20:
+  prev: 11/19
+  next: 11/21
+  <<: *default
+
+11/21:
+  prev: 11/20
+  next: 11/22
+  <<: *default
+
+11/22:
+  prev: 11/21
+  next: 11/23
+  <<: *default
+
+11/23:
+  prev: 11/22
+  next: 11/24
+  <<: *default
+
+11/24:
+  prev: 11/23
+  next: 11/25
+  <<: *default
+
+11/25:
+  prev: 11/24
+  next: 11/26
+  <<: *default
+
+11/26:
+  prev: 11/25
+  next: 11/27
+  <<: *default
+
+11/27:
+  prev: 11/26
+  next: 11/28
+  <<: *default
+
+11/28:
+  prev: 11/27
+  next: 11/29
+  <<: *default
+
+11/29:
+  prev: 11/28
+  next: 11/30
+  <<: *default
+
+11/30:
+  prev: 11/29
+  next: 12/01
+  <<: *default
+
+12/01:
+  prev: 11/30
+  next: 12/02
+  <<: *default
+
+12/02:
+  prev: 12/01
+  next: 12/03
+  <<: *default
+
+12/03:
+  prev: 12/02
+  next: 12/04
+  <<: *default
+
+12/04:
+  prev: 12/03
+  next: 12/05
+  <<: *default
+
+12/05:
+  prev: 12/04
+  next: 12/06
+  <<: *default
+
+12/06:
+  prev: 12/05
+  next: 12/07
+  <<: *default
+
+12/07:
+  prev: 12/06
+  next: 12/08
+  <<: *default
+
+12/08:
+  prev: 12/07
+  next: 12/09
+  <<: *default
+
+12/09:
+  prev: 12/08
+  next: 12/10
+  <<: *default
+
+12/10:
+  prev: 12/09
+  next: 12/11
+  <<: *default
+
+12/11:
+  prev: 12/10
+  next: 12/12
+  <<: *default
+
+12/12:
+  prev: 12/11
+  next: 12/13
+  <<: *default
+
+12/13:
+  prev: 12/12
+  next: 12/14
+  <<: *default
+
+12/14:
+  prev: 12/13
+  next: 12/15
+  <<: *default
+
+12/15:
+  prev: 12/14
+  next: 12/16
+  <<: *default
+
+12/16:
+  prev: 12/15
+  next: 12/17
+  <<: *default
+
+12/17:
+  prev: 12/16
+  next: 12/18
+  <<: *default
+
+12/18:
+  prev: 12/17
+  next: 12/19
+  <<: *default
+
+12/19:
+  prev: 12/18
+  next: 12/20
+  <<: *default
+
+12/20:
+  prev: 12/19
+  next: 12/21
+  <<: *default
+
+12/21:
+  prev: 12/20
+  next: 12/22
+  <<: *default
+
+12/22:
+  prev: 12/21
+  next: 12/23
+  <<: *default
+
+12/23:
+  prev: 12/22
+  next: 12/24
+  <<: *default
+
+12/24:
+  prev: 12/23
+  next: 12/25
+  <<: *default
+
+12/25:
+  prev: 12/24
+  next: 12/26
+  <<: *default
+
+12/26:
+  prev: 12/25
+  next: 12/27
+  <<: *default
+
+12/27:
+  prev: 12/26
+  next: 12/28
+  <<: *default
+
+12/28:
+  prev: 12/27
+  next: 12/29
+  <<: *default
+
+12/29:
+  prev: 12/28
+  next: 12/30
+  <<: *default
+
+12/30:
+  prev: 12/29
+  next: 12/31
+  <<: *default
+
+12/31:
+  prev: 12/30
+  next: 01/01
+  <<: *default
+
+01/01:
+  prev: 12/31
+  next: 01/02
+  <<: *default
+
+01/02:
+  prev: 01/01
+  next: 01/03
+  <<: *default
+
+01/03:
+  prev: 01/02
+  next: 01/04
+  <<: *default
+
+01/04:
+  prev: 01/03
+  next: 01/05
+  <<: *default
+
+01/05:
+  prev: 01/04
+  next: 01/06
+  <<: *default
+
+01/06:
+  prev: 01/05
+  next: 01/07
+  <<: *default
+
+01/07:
+  prev: 01/06
+  next: 01/08
+  <<: *default
+
+01/08:
+  prev: 01/07
+  next: 01/09
+  <<: *default
+
+01/09:
+  prev: 01/08
+  next: 01/10
+  <<: *default
+
+01/10:
+  prev: 01/09
+  next: 01/11
+  <<: *default
+
+01/11:
+  prev: 01/10
+  next: 01/12
+  <<: *default
+
+01/12:
+  prev: 01/11
+  next: 01/13
+  <<: *default
+
+01/13:
+  prev: 01/12
+  next: 01/14
+  <<: *default
+
+01/14:
+  prev: 01/13
+  next: 01/15
+  <<: *default
+
+01/15:
+  prev: 01/14
+  next: 01/16
+  <<: *default
+
+01/16:
+  prev: 01/15
+  next: 01/17
+  <<: *default
+
+01/17:
+  prev: 01/16
+  next: 01/18
+  <<: *default
+
+01/18:
+  prev: 01/17
+  next: 01/19
+  <<: *default
+
+01/19:
+  prev: 01/18
+  next: 01/20
+  <<: *default
+
+01/20:
+  prev: 01/19
+  next: 01/21
+  <<: *default
+
+01/21:
+  prev: 01/20
+  next: 01/22
+  <<: *default
+
+01/22:
+  prev: 01/21
+  next: 01/23
+  <<: *default
+
+01/23:
+  prev: 01/22
+  next: 01/24
+  <<: *default
+
+01/24:
+  prev: 01/23
+  next: 01/25
+  <<: *default
+
+01/25:
+  prev: 01/24
+  next: 01/26
+  <<: *default
+
+01/26:
+  prev: 01/25
+  next: 01/27
+  <<: *default
+
+01/27:
+  prev: 01/26
+  next: 01/28
+  <<: *default
+
+01/28:
+  prev: 01/27
+  next: 01/29
+  <<: *default
+
+01/29:
+  prev: 01/28
+  next: 01/30
+  <<: *default
+
+01/30:
+  prev: 01/29
+  next: 01/31
+  <<: *default
+
+01/31:
+  prev: 01/30
+  next: 99/01
+  <<: *default
+
+99/01:
+  prev: 01/31
+  next: 99/02
+  <<: *default
+
+99/02:
+  prev: 99/01
+  next: 99/03
+  <<: *default
+
+99/03:
+  prev: 99/02
+  next: 99/04
+  <<: *default
+
+99/04:
+  prev: 99/03
+  next: 99/05
+  <<: *default
+
+99/05:
+  prev: 99/04
+  next: 99/06
+  <<: *default
+
+99/06:
+  prev: 99/05
+  next: 99/07
+  <<: *default
+
+99/07:
+  prev: 99/06
+  next: 99/08
+  <<: *default
+
+99/08:
+  prev: 99/07
+  next: 99/09
+  <<: *default
+
+99/09:
+  prev: 99/08
+  next: 99/10
+  <<: *default
+
+99/10:
+  prev: 99/09
+  next: 99/11
+  <<: *default
+
+99/11:
+  prev: 99/10
+  next: 99/12
+  <<: *default
+
+99/12:
+  prev: 99/11
+  next: 99/13
+  <<: *default
+
+99/13:
+  prev: 99/12
+  next: 99/14
+  <<: *default
+
+99/14:
+  prev: 99/13
+  <<: *default
+
+99/99:
+  prev: 99/98
+  next: Start
+  morning:
+    quiz: Test
+    exam:
+    - Test item 1
+    - Test item 2
+    - Test item 3
+    - Test item 4
+    - Test item 5
+  afterschool:
+    - arcana: Test arcana 1
+      where: Test area 1
+      todo:
+        - Talk
+        - Bang
+        - Bangarang
+    - arcana: Test arcana 2
+      where: Test area 2
+      getpersona: LV5 Nekomata (Pixie + Apsara)
+  evening:
+    build:
+      - courage
+      - charm
+      - academic
+    quest:
+      Dance with the doctor

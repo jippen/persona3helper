@@ -9,7 +9,7 @@
   <body>
   <div data-role="page">
 
-    <div data-role="header" data-title="Start">
+    <div data-role="header" data-title="Start" data-position="fixed">
     {% if prev -%}
     <a href="/{{prev}}" data-icon="arrow-l" data-iconpos="left" data-prefetch>{{prev}}</a> 
     {% else -%}
@@ -23,79 +23,109 @@
     {% endif -%}
     </div>
 
-    <div data-role="content">
+    <div data-role="content"><!-- Morning -->
       <ul data-role="listview" data-divider-theme="e" data-theme="c">
         <li data-role="list-divider">Morning</li>
-      {% if quiz -%} 
+        {% if morning -%}
+          {% for item in morning.items() -%}
+            {% if item[0] == 'quiz' -%} 
         <li data-theme="a">Quiz Answer</li>
-        <li>{{ quiz }}</li>
-      {% elif exam -%}
+        <li>{{ item[1] }}</li>
+            {% elif item[0] == 'exam' -%}
         <li data-theme="a">Exam Answers</li>
-        {% for answer in exam -%}
+              {% for answer in item[1] -%}
         <li>{{ answer }}</li>
-        {% endfor -%}
-      {% else -%}
+              {% endfor -%}
+            {% endif -%}
+          {% endfor -%}
+        {% else -%}
         <li>No control</li>
-      {% endif -%}
+        {% endif -%}
+        </ul>
     </div>
     
-    <div data-role="content"> 
+    <div data-role="content"> <!-- After School -->
       <ul data-role="listview" data-divider-theme="e" data-theme="c">
         <li data-role="list-divider">After School</li>
-      {% if arcana -%}
-        <li data-theme="a">{{ arcana }}</li>
-      {% endif -%}
-      {% if after_school -%}
-        <li data-theme="a">Where to go</li>
-        <li>{{ after_school }}</li>
-      {% else -%}
+        {% if afterschool -%}
+          {% for as in afterschool -%}
+          {% if as['arcana'] -%}
+            {% if as['getpersona'] -%}
+            <li data-icon="alert" data-theme="a">
+              <h3>{{ as['arcana'] }} @ {{ as['where'] }}</h3>
+              <p><i>Next meeting, bring {{ as['getpersona'] }}</i></p>
+            </li>
+            {% else -%}
+            <li data-theme="a">{{ as['arcana'] }} @ {{ as['where'] }}</li>
+            {% endif -%}
+            {% if as['todo'] -%}
+              {% for item in as['todo'] -%}
+              <li>{{ item }}</li>
+              {% endfor -%}
+            {% else -%}
+            <li>Say/Do anything</li>
+            {% endif -%}
+          {% endif -%}
+          {% endfor -%}
+        {% else -%}
         <li>No control</li>
-      {% endif -%}
-      
-      {% if answers -%}  
-        <li data-theme="a">What to do/say</li>
-        {% for answer in answers -%}
-        <li>{{ answer }}</li>
-        {% endfor -%}
-      {% endif -%}
+        {% endif -%}
       </ul>
     </div>
     
-    <div data-role="content"> 
+    <div data-role="content"> <!-- Evening -->
       <ul data-role="listview" data-divider-theme="e" data-theme="c">
         <li data-role="list-divider">Evening</li>
-        {% if quest -%}
+        {% if evening -%}
+          {% if evening['quest'] -%}
         <li data-theme="a">Quest</li>
-        <li>{{quest}}</li>
-        {% endif -%}
-        {% if courage or charm or academic-%}
+        <li>{{ evening['quest'] }}</li>        
+          {% endif -%}
+          {% if evening['tartarus'] -%}
+            <li data-theme="a"><b>You MUST go to the Tartarus tonight</b></li>
+          {% elif evening['build'] -%}
         <li data-theme="a">Improve attributes</li>
-        {% endif -%}
-        
-        {% if courage -%}
-        <li>If courage not maxed: {{courage}}</li>
-        {% endif -%}
-        {% if charm -%}
-        <li>If charm not maxed: {{charm}}</li>
-        {% endif -%}        
-        {% if academic -%}
-        <li>If academic not maxed: {{academic}}</li>
-        {% endif -%}
-        {% if tartarus -%}
-        <li>{{tartarus}}</li>
+            {% for stat in evening['build'] -%}
+              {% if stat == 'courage' -%}
+                <li>
+                  <h3>If courage is not maxed</h3>
+                  <p>{{courage[dow]['do']}} ({{courage[dow]['cost']}} yen) {% if courage[dow]['tartarus'] -%}or go to Tartarus{% endif -%}</p>
+                  
+                </li>
+              {% endif -%}
+              {% if stat == 'charm' -%}
+                <li>
+                  <h3>If charm is not maxed</h3>
+                  <p>{{charm[dow]['do']}} ({{charm[dow]['cost']}} yen) {% if charm[dow]['tartarus'] -%}or go to Tartarus{% endif -%}
+                </li>
+              {% endif -%}
+              {% if stat == 'academic' -%}
+                <li>
+                  <h3>If academic is not maxed</h3>
+                  <p>{{academic[dow]['do']}} ({{academic[dow]['cost']}} yen) {% if academic[dow]['tartarus'] -%}or go to Tartarus{% endif -%}
+                </li>
+              {% endif -%}
+            {% endfor -%}
+          {% endif -%}
+        {% else -%}
+        <li>No Control</li>
         {% endif -%}
       </ul>
     </div>    
 
-    <div data-role="content"> 
+    <div data-role="content"> <!-- Late Night -->
       <ul data-role="listview" data-divider-theme="e" data-theme="c">
         <li data-role="list-divider">Late Night</li>
-        {% if late_night -%}
-        <li>{{late_night}}</li>
+        {% if latenight -%}
+          {% for event in latenight -%}
+        <li>{{event}}</li>
+          {% endfor -%}
+        {% else -%}
+        <li>No Control</li>
         {% endif -%}
       </ul>
     </div>
 
-  </div><!-- /page -->
+  </div>
   </body>
 </html>
