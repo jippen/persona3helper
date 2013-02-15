@@ -190,9 +190,10 @@ amonth: &amonth
   prev: 4/20
   next: 4/22
   afterschool:
-    goto: Cinema - Port Island Station
-    do:
-      - Watch a movie
+    - arcana: Cinema
+      where: Port Island Station
+      todo:
+        - Watch a movie
   <<: *cmonth
  
 4/22:
@@ -201,8 +202,6 @@ amonth: &amonth
   afterschool:
     - arcana: Magician 1
       where: Kenji - Classroom 
-      todo:
-        - Talk
   <<: *cmonth
 
 4/23:
@@ -286,8 +285,6 @@ amonth: &amonth
   afterschool:
     - arcana: Hermit 1
       where: Dorm room computer
-      todo:
-        - Talk
   <<: *cmonth
 
 4/30:
@@ -341,14 +338,19 @@ amonth: &amonth
         - Of course
         - The outdoors are overrated
   <<: *cmonth
-
-##################################################
-# Current
-################################################## 
-  
+ 
 5/4:
   prev: 5/3
   next: 5/5
+  afterschool:
+    - arcana: Hierophant 2
+      where: Bookstore - Iwotodai Station
+      todo:
+        - Tell him
+        - Thanks
+        - Any
+        - Any
+        - Any
   evening:
     tartarus: Forced
   <<: *cmonth
@@ -356,13 +358,34 @@ amonth: &amonth
 5/5:
   prev: 5/4
   next: 5/6
+  afterschool:
+    - quest: Get Takoyaki (Iwatodai Station) and Mad Bull (dorm vending machine) for tomorrow
+    - arcana: Hierophant 3
+      where: Bookstore - Iwotodai Station
+      todo:
+        - Looking for something?
+        - I'll help you look
+        - Any
+        - Any
+        - Any
   <<: *cmonth
 
+##################################################
+# Current
+##################################################  
+  
 5/6:
   prev: 5/5
   next: 5/7
   morning:
     quiz: Soft Water
+  afterschool:
+    - arcana: Hanged Man
+      where: ???
+      todo:
+        - Mad bull and takoyaki needed
+    - arcana: Emperor 1
+      where: Student council room, across from class
   <<: *cmonth
 
 5/7:

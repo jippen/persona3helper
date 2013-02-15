@@ -49,6 +49,10 @@
         <li data-role="list-divider">After School</li>
         {% if afterschool -%}
           {% for as in afterschool -%}
+            {% if as['quest'] -%}
+        <li data-theme="a">Quest</li>
+        <li>{{ as['quest'] }}</li>        
+          {% endif -%}
           {% if as['arcana'] -%}
             {% if as['getpersona'] -%}
             <li data-icon="alert" data-theme="a">
