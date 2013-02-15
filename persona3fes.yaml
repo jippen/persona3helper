@@ -4,8 +4,8 @@ default: &default
   morning: !!null
   afterschool: !!null
   evening: !!null
-  latenight:
-    - Study
+  latenight: 
+    - Do anything
 
 courage:
   Monday: 
@@ -98,35 +98,50 @@ academic:
     cost: 0
 
 cmonth: &cmonth
+  <<: *default
   evening:
     build:
       - courage
+  latenight:
+    - Study
  
 cchmonth: &cchmonth
+  <<: *default
   evening:
     build:
       - courage
       - charm
+  latenight:
+    - Study
 
 chmonth: &chmonth
+  <<: *default
   evening:
     build:
       - charm
+  latenight:
+    - Study
       
 chamonth: &chamonth
+  <<: *default
   evening:
     build:
       - charm
       - academic
+  latenight:
+    - Study
 
 amonth: &amonth
+  <<: *default
   evening:
     build:
       - academic
+  latenight:
+    - Study
 
-####################################################  
+#################################################
 # Days
-####################################################
+#################################################
 4/7:
   <<: *default
   prev: Start
@@ -180,146 +195,234 @@ amonth: &amonth
       - Watch a movie
   <<: *cmonth
  
-####################################################  
-# Current
-####################################################
 4/22:
   prev: 4/21
   next: 4/23
-  <<: *default
+  afterschool:
+    - arcana: Magician 1
+      where: Kenji - Classroom 
+      todo:
+        - Talk
+  <<: *cmonth
 
 4/23:
   prev: 4/22
   next: 4/24
-  <<: *default
+  afterschool:
+    - arcana: Chariot 1
+      where: Gym - 1st floor
+      todo:
+        - Join any of the athletic clubs
+  <<: *cmonth
 
 4/24:
   prev: 4/23
   next: 4/25
-  <<: *default
+  afterschool:
+    - arcana: Magician 2
+      where: Kenji - Classroom
+      getpersona: Nekomata (Pixie + Apsara)
+      todo:
+        - No OR That's a secret
+        - I like older women OR I like them all
+  <<: *cmonth
 
 4/25:
   prev: 4/24
   next: 4/26
-  <<: *default
+  afterschool:
+    - arcana: Hierophant 1
+      where: Bookstore - Iwotodai Station
+      todo:
+        - Talk
+        - Go to gym at school, check tree next to pathway
+        - Return to bookstore and talk
+  <<: *cmonth
 
 4/26:
   prev: 4/25
   next: 4/27
-  <<: *default
+  afterschool:
+    - arcana: Cinema
+      where: Port Island Station
+      todo:
+        - Watch movie
+  <<: *cmonth
 
 4/27:
   prev: 4/26
   next: 4/28
   morning:
     quiz: 6000 years ago
-  <<: *default
+  afterschool:
+    - arcana: Chariot 2
+      getpersona: Aramitama (Pixie + Angel)
+      where: Classroom
+      todo:
+        - Toughen up
+        - Any
+        - Any
+    - arcana: Strength
+      where: School entrance (automatic)
+      todo:
+        - Talk to her
+        - Ask her to walk with you
+  <<: *cmonth
 
 4/28:
   prev: 4/27
   next: 4/29
-  <<: *default
+  afterschool:
+    - arcana: Magician 3
+      where: Kenji - Classroom 
+      todo:
+        - What, life?
+        - Go for it
+  <<: *cmonth
 
 4/29:
   prev: 4/28
   next: 4/30
-  <<: *default
+  afterschool:
+    - arcana: Hermit 1
+      where: Dorm room computer
+      todo:
+        - Talk
+  <<: *cmonth
 
 4/30:
   prev: 4/29
   next: 5/1
-  <<: *default
+  afterschool:
+    - arcana: Chariot 3
+      where: Classroom
+      todo:
+        - Are you sure you're ok?
+        - Will it heal?
+    - arcana: Strength 1
+      where: School entrance (automatic)
+      todo:
+        - Talk to her
+        - Ask her to walk with you
+        - Say anything
+  <<: *cmonth
 
 5/1:
   prev: 4/30
   next: 5/2
-  <<: *default
+  afterschool:
+    - arcana: Visit someone
+      where: Hospital (automatic)
+  <<: *cmonth
 
 5/2:
   prev: 5/1
   next: 5/3
-  <<: *default
-
+  <<: *cmonth
+  afterschool:
+    - arcana: Strength 2
+      where: Water fountain, 2nd floor
+      todo:
+        - What happened?
+        - I agree
+        - That's true
+  evening:
+    quest: Rosin (Yukari)
+    build:
+      - courage
+  
 5/3:
   prev: 5/2
   next: 5/4
-  <<: *default
+  afterschool:
+    - arcana: Hermit 2
+      where: Dorm room computer
+      todo:
+        - Of course
+        - The outdoors are overrated
+  <<: *cmonth
 
+##################################################
+# Current
+################################################## 
+  
 5/4:
   prev: 5/3
   next: 5/5
-  <<: *default
+  evening:
+    tartarus: Forced
+  <<: *cmonth
 
 5/5:
   prev: 5/4
   next: 5/6
-  <<: *default
+  <<: *cmonth
 
 5/6:
   prev: 5/5
   next: 5/7
   morning:
     quiz: Soft Water
-  <<: *default
+  <<: *cmonth
 
 5/7:
   prev: 5/6
   next: 5/8
-  <<: *default
+  <<: *cmonth
 
 5/8:
   prev: 5/7
   next: 5/9
-  <<: *default
+  <<: *cmonth
 
 5/9:
   prev: 5/8
   next: 5/10
-  <<: *default
+  <<: *cmonth
 
 5/10:
   prev: 5/9
   next: 5/11
-  <<: *default
+  <<: *cmonth
 
 5/11:
   prev: 5/10
   next: 5/12
-  <<: *default
+  <<: *cmonth
 
 5/12:
   prev: 5/11
   next: 5/13
-  <<: *default
+  <<: *cmonth
 
 5/13:
   prev: 5/12
   next: 5/14
   morning:
     quiz: 1700 km/hr
-  <<: *default
+  <<: *cmonth
 
 5/14:
   prev: 5/13
   next: 5/15
-  <<: *default
+  <<: *cmonth
 
 5/15:
   prev: 5/14
   next: 5/16
   morning:
     quiz: Bread
-  <<: *default
+  <<: *cmonth
 
 5/16:
   prev: 5/15
   next: 5/17
-  <<: *default
+  <<: *cmonth
 
 5/17:
   prev: 5/16
   next: 5/18
-  <<: *default
+  <<: *cmonth
 
 5/18:
   prev: 5/17
@@ -330,7 +433,7 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cmonth
 
 5/19:
   prev: 5/18
@@ -341,7 +444,7 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cmonth
 
 5/20:
   prev: 5/19
@@ -352,7 +455,7 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cchmonth
 
 5/21:
   prev: 5/20
@@ -363,7 +466,7 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cchmonth
 
 5/22:
   prev: 5/21
@@ -374,7 +477,7 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cchmonth
 
 5/23:
   prev: 5/22
@@ -385,282 +488,282 @@ amonth: &amonth
       - Faster than sound
       - Hard Water
       - Nara
-  <<: *default
+  <<: *cchmonth
 
 5/24:
   prev: 5/23
   next: 5/25
-  <<: *default
+  <<: *cchmonth
 
 5/25:
   prev: 5/24
   next: 5/26
-  <<: *default
+  <<: *cchmonth
 
 5/26:
   prev: 5/25
   next: 5/27
-  <<: *default
+  <<: *cchmonth
 
 5/27:
   prev: 5/26
   next: 5/28
-  <<: *default
+  <<: *cchmonth
 
 5/28:
   prev: 5/27
   next: 5/29
-  <<: *default
+  <<: *cchmonth
 
 5/29:
   prev: 5/28
   next: 5/30
-  <<: *default
+  <<: *cchmonth
 
 5/30:
   prev: 5/29
   next: 5/31
-  <<: *default
+  <<: *cchmonth
 
 5/31:
   prev: 5/30
   next: 6/1
-  <<: *default
+  <<: *cchmonth
 
 6/1:
   prev: 5/31
   next: 6/2
-  <<: *default
-
+  <<: *cchmonth
+  
 6/2:
   prev: 6/1
   next: 6/3
-  <<: *default
+  <<: *cchmonth
 
 6/3:
   prev: 6/2
   next: 6/4
-  <<: *default
+  <<: *cchmonth
 
 6/4:
   prev: 6/3
   next: 6/5
-  <<: *default
+  <<: *cchmonth
 
 6/5:
   prev: 6/4
   next: 6/6
-  <<: *default
+  <<: *cchmonth
 
 6/6:
   prev: 6/5
   next: 6/7
-  <<: *default
+  <<: *cchmonth
 
 6/7:
   prev: 6/6
   next: 6/8
-  <<: *default
+  <<: *cchmonth
 
 6/8:
   prev: 6/7
   next: 6/9
-  <<: *default
+  <<: *cchmonth
 
 6/9:
   prev: 6/8
   next: 6/10
-  <<: *default
+  <<: *cchmonth
 
 6/10:
   prev: 6/9
   next: 6/11
-  <<: *default
+  <<: *cchmonth
 
 6/11:
   prev: 6/10
   next: 6/12
-  <<: *default
+  <<: *cchmonth
 
 6/12:
   prev: 6/11
   next: 6/13
-  <<: *default
+  <<: *cchmonth
 
 6/13:
   prev: 6/12
   next: 6/14
-  <<: *default
+  <<: *cchmonth
 
 6/14:
   prev: 6/13
   next: 6/15
-  <<: *default
+  <<: *cchmonth
 
 6/15:
   prev: 6/14
   next: 6/16
   morning:
     quiz: And...
-  <<: *default
+  <<: *cchmonth
 
 6/16:
   prev: 6/15
   next: 6/17
-  <<: *default
+  <<: *cchmonth
 
 6/17:
   prev: 6/16
   next: 6/18
   morning:
     quiz: Shamanizm
-  <<: *default
+  <<: *cchmonth
 
 6/18:
   prev: 6/17
   next: 6/19
-  <<: *default
+  <<: *cchmonth
 
 6/19:
   prev: 6/18
   next: 6/20
-  <<: *default
+  <<: *chmonth
 
 6/20:
   prev: 6/19
   next: 6/21
-  <<: *default
+  <<: *chmonth
 
 6/21:
   prev: 6/20
   next: 6/22
-  <<: *default
+  <<: *chmonth
 
 6/22:
   prev: 6/21
   next: 6/23
   morning:
     quiz: Jellyfish
-  <<: *default
+  <<: *chmonth
 
 6/23:
   prev: 6/22
   next: 6/24
-  <<: *default
+  <<: *chmonth
 
 6/24:
   prev: 6/23
   next: 6/25
-  <<: *default
+  <<: *chmonth
 
 6/25:
   prev: 6/24
   next: 6/26
   morning:
     quiz: Dowsing
-  <<: *default
+  <<: *chmonth
 
 6/26:
   prev: 6/25
   next: 6/27
-  <<: *default
+  <<: *chamonth
 
 6/27:
   prev: 6/26
   next: 6/28
-  <<: *default
+  <<: *chamonth
 
 6/28:
   prev: 6/27
   next: 6/29
-  <<: *default
+  <<: *chamonth
 
 6/29:
   prev: 6/28
   next: 6/30
   morning:
     quiz: It can go either way.
-  <<: *default
+  <<: *chamonth
 
 6/30:
   prev: 6/29
   next: 7/1
-  <<: *default
+  <<: *chamonth
 
 7/1:
   prev: 6/30
   next: 7/2
-  <<: *default
+  <<: *chamonth
 
 7/2:
   prev: 7/1
   next: 7/3
-  <<: *default
+  <<: *chamonth
 
 7/3:
   prev: 7/2
   next: 7/4
   morning:
     quiz: The Global Heritage Pavilion
-  <<: *default
+  <<: *chamonth
 
 7/4:
   prev: 7/3
   next: 7/5
-  <<: *default
+  <<: *chamonth
 
 7/5:
   prev: 7/4
   next: 7/6
-  <<: *default
+  <<: *chamonth
 
 7/6:
   prev: 7/5
   next: 7/7
-  <<: *default
+  <<: *chamonth
 
 7/7:
   prev: 7/6
   next: 7/8
-  <<: *default
+  <<: *chamonth
 
 7/8:
   prev: 7/7
   next: 7/9
   morning:
     quiz: I failed, It's over now.
-  <<: *default
+  <<: *chamonth
 
 7/9:
   prev: 7/8
   next: 7/10
   morning:
     quiz: Kondan Einen Shizaihou
-  <<: *default
+  <<: *chamonth
 
 7/10:
   prev: 7/9
   next: 7/11
   morning:
     quiz: Kabbalah
-  <<: *default
+  <<: *chamonth
 
 7/11:
   prev: 7/10
   next: 7/12
   morning:
     quiz: Imperial Prince
-  <<: *default
+  <<: *chamonth
 
 7/12:
   prev: 7/11
   next: 7/13
-  <<: *default
+  <<: *chamonth
 
 7/13:
   prev: 7/12
   next: 7/14
-  <<: *default
+  <<: *chamonth
 
 7/14:
   prev: 7/13
@@ -671,7 +774,7 @@ amonth: &amonth
       - Octopus
       - Minamoto no Yoritomo
       - I want, I learned
-  <<: *default
+  <<: *chamonth
 
 7/15:
   prev: 7/14
@@ -682,7 +785,7 @@ amonth: &amonth
       - Octopus
       - Minamoto no Yoritomo
       - I want, I learned
-  <<: *default
+  <<: *chamonth
 
 7/16:
   prev: 7/15
@@ -693,7 +796,7 @@ amonth: &amonth
       - Octopus
       - Minamoto no Yoritomo
       - I want, I learned
-  <<: *default
+  <<: *chamonth
 
 7/17:
   prev: 7/16
@@ -704,7 +807,7 @@ amonth: &amonth
       - Octopus
       - Minamoto no Yoritomo
       - I want, I learned
-  <<: *default
+  <<: *chamonth
 
 7/18:
   prev: 7/17
@@ -715,449 +818,449 @@ amonth: &amonth
       - Octopus
       - Minamoto no Yoritomo
       - I want, I learned
-  <<: *default
+  <<: *chamonth
 
 7/19:
   prev: 7/18
   next: 7/20
-  <<: *default
+  <<: *chamonth
 
 7/20:
   prev: 7/19
   next: 7/21
-  <<: *default
+  <<: *chamonth
 
 7/21:
   prev: 7/20
   next: 7/22
-  <<: *default
+  <<: *chamonth
 
 7/22:
   prev: 7/21
   next: 7/23
-  <<: *default
+  <<: *chamonth
 
 7/23:
   prev: 7/22
   next: 7/24
-  <<: *default
+  <<: *chamonth
 
 7/24:
   prev: 7/23
   next: 7/25
-  <<: *default
+  <<: *chamonth
 
 7/25:
   prev: 7/24
   next: 7/26
-  <<: *default
+  <<: *amonth
 
 7/26:
   prev: 7/25
   next: 7/27
-  <<: *default
+  <<: *amonth
 
 7/27:
   prev: 7/26
   next: 7/28
-  <<: *default
+  <<: *amonth
 
 7/28:
   prev: 7/27
   next: 7/29
-  <<: *default
+  <<: *amonth
 
 7/29:
   prev: 7/28
   next: 7/30
-  <<: *default
+  <<: *amonth
 
 7/30:
   prev: 7/29
   next: 7/31
-  <<: *default
+  <<: *amonth
 
 7/31:
   prev: 7/30
   next: 8/1
-  <<: *default
+  <<: *amonth
 
 8/1:
   prev: 7/31
   next: 8/2
-  <<: *default
+  <<: *amonth
 
 8/2:
   prev: 8/1
   next: 8/3
-  <<: *default
+  <<: *amonth
 
 8/3:
   prev: 8/2
   next: 8/4
-  <<: *default
+  <<: *amonth
 
 8/4:
   prev: 8/3
   next: 8/5
-  <<: *default
+  <<: *amonth
 
 8/5:
   prev: 8/4
   next: 8/6
-  <<: *default
+  <<: *amonth
 
 8/6:
   prev: 8/5
   next: 8/7
-  <<: *default
+  <<: *amonth
 
 8/7:
   prev: 8/6
   next: 8/8
-  <<: *default
+  <<: *amonth
 
 8/8:
   prev: 8/7
   next: 8/9
-  <<: *default
+  <<: *amonth
 
 8/9:
   prev: 8/8
   next: 8/10
-  <<: *default
+  <<: *amonth
 
 8/10:
   prev: 8/9
   next: 8/11
-  <<: *default
+  <<: *amonth
 
 8/11:
   prev: 8/10
   next: 8/12
-  <<: *default
+  <<: *amonth
 
 8/12:
   prev: 8/11
   next: 8/13
-  <<: *default
+  <<: *amonth
 
 8/13:
   prev: 8/12
   next: 8/14
-  <<: *default
+  <<: *amonth
 
 8/14:
   prev: 8/13
   next: 8/15
-  <<: *default
+  <<: *amonth
 
 8/15:
   prev: 8/14
   next: 8/16
-  <<: *default
+  <<: *amonth
 
 8/16:
   prev: 8/15
   next: 8/17
-  <<: *default
+  <<: *amonth
 
 8/17:
   prev: 8/16
   next: 8/18
-  <<: *default
+  <<: *amonth
 
 8/18:
   prev: 8/17
   next: 8/19
-  <<: *default
+  <<: *amonth
 
 8/19:
   prev: 8/18
   next: 8/20
-  <<: *default
+  <<: *amonth
 
 8/20:
   prev: 8/19
   next: 8/21
-  <<: *default
+  <<: *amonth
 
 8/21:
   prev: 8/20
   next: 8/22
-  <<: *default
+  <<: *amonth
 
 8/22:
   prev: 8/21
   next: 8/23
-  <<: *default
+  <<: *amonth
 
 8/23:
   prev: 8/22
   next: 8/24
-  <<: *default
+  <<: *amonth
 
 8/24:
   prev: 8/23
   next: 8/25
-  <<: *default
+  <<: *amonth
 
 8/25:
   prev: 8/24
   next: 8/26
-  <<: *default
+  <<: *amonth
 
 8/26:
   prev: 8/25
   next: 8/27
-  <<: *default
+  <<: *amonth
 
 8/27:
   prev: 8/26
   next: 8/28
-  <<: *default
+  <<: *amonth
 
 8/28:
   prev: 8/27
   next: 8/29
-  <<: *default
+  <<: *amonth
 
 8/29:
   prev: 8/28
   next: 8/30
-  <<: *default
+  <<: *amonth
 
 8/30:
   prev: 8/29
   next: 8/31
-  <<: *default
+  <<: *amonth
 
 8/31:
   prev: 8/30
   next: 9/1
-  <<: *default
+  <<: *amonth
 
 9/1:
   prev: 8/31
   next: 9/2
   morning:
     quiz: Superconductivity
-  <<: *default
+  <<: *amonth
 
 9/2:
   prev: 9/1
   next: 9/3
-  <<: *default
+  <<: *amonth
 
 9/3:
   prev: 9/2
   next: 9/4
-  <<: *default
+  <<: *amonth
 
 9/4:
   prev: 9/3
   next: 9/5
-  <<: *default
+  <<: *amonth
 
 9/5:
   prev: 9/4
   next: 9/6
-  <<: *default
+  <<: *amonth
 
 9/6:
   prev: 9/5
   next: 9/7
-  <<: *default
+  <<: *amonth
 
 9/7:
   prev: 9/6
   next: 9/8
-  <<: *default
+  <<: *amonth
 
 9/8:
   prev: 9/7
   next: 9/9
-  <<: *default
+  <<: *amonth
 
 9/9:
   prev: 9/8
   next: 9/10
-  <<: *default
+  <<: *amonth
 
 9/10:
   prev: 9/9
   next: 9/11
   morning:
     quiz: Gochisou-sama
-  <<: *default
+  <<: *amonth
 
 9/11:
   prev: 9/10
   next: 9/12
   morning:
     quiz: The Hermetica
-  <<: *default
+  <<: *amonth
 
 9/12:
   prev: 9/11
   next: 9/13
-  <<: *default
+  <<: *amonth
 
 9/13:
   prev: 9/12
   next: 9/14
-  <<: *default
+  <<: *amonth
 
 9/14:
   prev: 9/13
   next: 9/15
   morning:
     quiz: Can't let others produce.
-  <<: *default
+  <<: *amonth
 
 9/15:
   prev: 9/14
   next: 9/16
-  <<: *default
+  <<: *amonth
 
 9/16:
   prev: 9/15
   next: 9/17
-  <<: *default
+  <<: *amonth
 
 9/17:
   prev: 9/16
   next: 9/18
-  <<: *default
+  <<: *amonth
 
 9/18:
   prev: 9/17
   next: 9/19
-  <<: *default
+  <<: *amonth
 
 9/19:
   prev: 9/18
   next: 9/20
-  <<: *default
+  <<: *amonth
 
 9/20:
   prev: 9/19
   next: 9/21
-  <<: *default
+  <<: *amonth
 
 9/21:
   prev: 9/20
   next: 9/22
-  <<: *default
+  <<: *amonth
 
 9/22:
   prev: 9/21
   next: 9/23
-  <<: *default
+  <<: *amonth
 
 9/23:
   prev: 9/22
   next: 9/24
-  <<: *default
+  <<: *amonth
 
 9/24:
   prev: 9/23
   next: 9/25
-  <<: *default
+  <<: *amonth
 
 9/25:
   prev: 9/24
   next: 9/26
-  <<: *default
+  <<: *amonth
 
 9/26:
   prev: 9/25
   next: 9/27
   morning:
     quiz: The Tetractys
-  <<: *default
+  <<: *amonth
 
 9/27:
   prev: 9/26
   next: 9/28
-  <<: *default
+  <<: *amonth
 
 9/28:
   prev: 9/27
   next: 9/29
-  <<: *default
+  <<: *amonth
 
 9/29:
   prev: 9/28
   next: 9/30
-  <<: *default
+  <<: *amonth
 
 9/30:
   prev: 9/29
   next: 10/1
-  <<: *default
+  <<: *amonth
 
 10/1:
   prev: 9/30
   next: 10/2
-  <<: *default
+  <<: *amonth
 
 10/2:
   prev: 10/1
   next: 10/3
-  <<: *default
+  <<: *amonth
 
 10/3:
   prev: 10/2
   next: 10/4
-  <<: *default
+  <<: *amonth
 
 10/4:
   prev: 10/3
   next: 10/5
-  <<: *default
+  <<: *amonth
 
 10/5:
   prev: 10/4
   next: 10/6
-  <<: *default
+  <<: *amonth
 
 10/6:
   prev: 10/5
   next: 10/7
-  <<: *default
+  <<: *amonth
 
 10/7:
   prev: 10/6
   next: 10/8
   morning:
     quiz: To excite the audience
-  <<: *default
+  <<: *amonth
 
 10/8:
   prev: 10/7
   next: 10/9
-  <<: *default
+  <<: *amonth
 
 10/9:
   prev: 10/8
   next: 10/10
-  <<: *default
+  <<: *amonth
 
 10/10:
   prev: 10/9
   next: 10/11
-  <<: *default
+  <<: *amonth
 
 10/11:
   prev: 10/10
   next: 10/12
-  <<: *default
+  <<: *amonth
 
 10/12:
   prev: 10/11
   next: 10/13
-  <<: *default
+  <<: *amonth
 
 10/13:
   prev: 10/12
@@ -1168,7 +1271,7 @@ amonth: &amonth
       - Pythagoras
       - Zero electrical resistance
       - Coup of Meiou
-  <<: *default
+  <<: *amonth
 
 10/14:
   prev: 10/13
@@ -1179,7 +1282,7 @@ amonth: &amonth
       - Pythagoras
       - Zero electrical resistance
       - Coup of Meiou
-  <<: *default
+  <<: *amonth
 
 10/15:
   prev: 10/14
@@ -1190,7 +1293,7 @@ amonth: &amonth
       - Pythagoras
       - Zero electrical resistance
       - Coup of Meiou
-  <<: *default
+  <<: *amonth
 
 10/16:
   prev: 10/15
@@ -1201,7 +1304,7 @@ amonth: &amonth
       - Pythagoras
       - Zero electrical resistance
       - Coup of Meiou
-  <<: *default
+  <<: *amonth
 
 10/17:
   prev: 10/16
@@ -1212,189 +1315,189 @@ amonth: &amonth
       - Pythagoras
       - Zero electrical resistance
       - Coup of Meiou
-  <<: *default
+  <<: *amonth
 
 10/18:
   prev: 10/17
   next: 10/19
-  <<: *default
+  <<: *amonth
 
 10/19:
   prev: 10/18
   next: 10/20
   morning:
     quiz: Fourteen
-  <<: *default
+  <<: *amonth
 
 10/20:
   prev: 10/19
   next: 10/21
-  <<: *default
+  <<: *amonth
 
 10/21:
   prev: 10/20
   next: 10/22
-  <<: *default
+  <<: *amonth
 
 10/22:
   prev: 10/21
   next: 10/23
   morning:
     quiz: By fermenting them
-  <<: *default
+  <<: *amonth
 
 10/23:
   prev: 10/22
   next: 10/24
   morning:
     quiz: Madam Blavatsky
-  <<: *default
+  <<: *amonth
 
 10/24:
   prev: 10/23
   next: 10/25
-  <<: *default
+  <<: *amonth
 
 10/25:
   prev: 10/24
   next: 10/26
-  <<: *default
+  <<: *amonth
 
 10/26:
   prev: 10/25
   next: 10/27
   morning:
     quiz: Wristwatch
-  <<: *default
+  <<: *amonth
 
 10/27:
   prev: 10/26
   next: 10/28
-  <<: *default
+  <<: *amonth
 
 10/28:
   prev: 10/27
   next: 10/29
-  <<: *default
+  <<: *amonth
 
 10/29:
   prev: 10/28
   next: 10/30
   morning:
     quiz: Lactase
-  <<: *default
+  <<: *amonth
 
 10/30:
   prev: 10/29
   next: 10/31
-  <<: *default
+  <<: *amonth
 
 10/31:
   prev: 10/30
   next: 11/1
-  <<: *default
+  <<: *amonth
 
 11/1:
   prev: 10/31
   next: 11/2
-  <<: *default
+  <<: *amonth
 
 11/2:
   prev: 11/1
   next: 11/3
-  <<: *default
+  <<: *amonth
 
 11/3:
   prev: 11/2
   next: 11/4
-  <<: *default
+  <<: *amonth
 
 11/4:
   prev: 11/3
   next: 11/5
-  <<: *default
+  <<: *amonth
 
 11/5:
   prev: 11/4
   next: 11/6
-  <<: *default
+  <<: *amonth
 
 11/6:
   prev: 11/5
   next: 11/7
-  <<: *default
+  <<: *amonth
 
 11/7:
   prev: 11/6
   next: 11/8
-  <<: *default
+  <<: *amonth
 
 11/8:
   prev: 11/7
   next: 11/9
-  <<: *default
+  <<: *amonth
 
 11/9:
   prev: 11/8
   next: 11/10
-  <<: *default
+  <<: *amonth
 
 11/10:
   prev: 11/9
   next: 11/11
-  <<: *default
+  <<: *amonth
 
 11/11:
   prev: 11/10
   next: 11/12
-  <<: *default
+  <<: *amonth
 
 11/12:
   prev: 11/11
   next: 11/13
   morning:
     quiz: The Upanishads
-  <<: *default
+  <<: *amonth
 
 11/13:
   prev: 11/12
   next: 11/14
-  <<: *default
+  <<: *amonth
 
 11/14:
   prev: 11/13
   next: 11/15
-  <<: *default
+  <<: *amonth
 
 11/15:
   prev: 11/14
   next: 11/16
-  <<: *default
+  <<: *amonth
 
 11/16:
   prev: 11/15
   next: 11/17
-  <<: *default
+  <<: *amonth
 
 11/17:
   prev: 11/16
   next: 11/18
-  <<: *default
+  <<: *amonth
 
 11/18:
   prev: 11/17
   next: 11/19
-  <<: *default
+  <<: *amonth
 
 11/19:
   prev: 11/18
   next: 11/20
-  <<: *default
+  <<: *amonth
 
 11/20:
   prev: 11/19
   next: 11/21
-  <<: *default
+  <<: *amonth
 
 11/21:
   prev: 11/20
